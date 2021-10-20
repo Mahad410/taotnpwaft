@@ -1,4 +1,4 @@
-1. Follow Discord's Terms of Service: https://discord.com/terms
+1. Follow Discord's Terms of Service: [https://discord.com/terms]
 1. Be respectful.  Remember the human.
 1. Keep the learning environment positive. (😡 => 
 yell-at-the-clouds)

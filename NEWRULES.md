@@ -5,7 +5,8 @@
 
 Inside the The Art of Tech:NPWAFT Discord, We want everyone to have a safe, fun, and enjoyable time in this server, therefore we have put in place a few rules... 
 
-So, before we break down the server rules, everyone here would like to thank you for joining our family. We treat this server & community like our home. This community is a direct result of the type of people we encourage to participate and the rules we keep in place within the community; these rules we ask each and everyone of you to adhere to and follow. Rules listed above are not all the rules as the list would go all the way to the North Pole. So if a rule isnt listed but a mod asks you to stop what you are doing. You need to cease what you are doing thats wrong or you will receive points based on mod discretion.
+So, before we break down the server rules, everyone here would like to thank you for joining our family. We treat this server & community like our home. This community is a direct result of the type of people we encourage to participate and the rules we keep in place within the community; these rules we ask each and everyone of you to adhere to and follow. Rules listed above are not all the rules as the list would go all the way to the North Pole. So if a rule isnt listed but a mod asks you to stop what you are doing. You need to cease what you are doing thats wrong.
+
 @everyone If you agree with ALL the information in this channel, please react with the 
 
 However, violations of the rules may result in a warning, kick, or ban, based on severity and this being said, all Admininstrative decisions are FINAL!
@@ -62,7 +63,8 @@ So with that said, Any other actions that cause problems will be dealt with as n
 * No self-promotion unless authorized by The Art of Tech: Not Playing with a Full Tech staff and this includes staff.
 
 * No illegal discussion.
-  * This includes any discussion about illegal drugs or activities, as well as hacking and piracy.
+
+>>>This includes any discussion about illegal drugs or activities, as well as hacking and piracy.
 
 * No ban evading.
   
@@ -72,7 +74,6 @@ So with that said, Any other actions that cause problems will be dealt with as n
 
 * The Sending/Linking of any harmful material such as viruses, IP trackers or malicious links and/or the posting of someone's personal information will result in an immediate and permanent ban hammer.
 
-
 # Admin & Moderators
 
 The people with orange names are admins and moderators. If you are experiencing some sort of trouble with the server, or otherwise have helpful suggestions or ideas, these are the people to contact.
@@ -81,15 +82,15 @@ If another user of this server is causing problems on this server or with you or
 
 # Our Community & It's Goals  
 
-❤️ This community is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. ❤️ 
+❤️ This community is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. ❤️  
 
 We hope to create an environment in which diverse individuals can collaborate and interact in a positive and affirming way. Examples of behavior that contributes to creating this sort of environment include:
 
-•Using welcoming and inclusive language.
-•Being respectful of differing viewpoints and experiences.
-•Gracefully accepting constructive criticism.
-•Focusing on what is best for the overall community.
-•Showing empathy towards other community members.
+* Using welcoming and inclusive language.
+* Being respectful of differing viewpoints and experiences.
+* Gracefully accepting constructive criticism.
+* Focusing on what is best for the overall community.
+* Showing empathy towards other community members.
 
 Intolerance is not welcome in this community or Discord Server.
 
@@ -114,28 +115,4 @@ Specifically Prohibited Content:
 
 4. Racially driven statements or 'slurs'.
 
-5. Personal Attacks
-
-$$$  This is centered text
-
-$
-This is red
-$
-
->1.>2.> This is styled header
-
-++ What ++
-
-++What++
-
-__What__ (Bold)
-
-# 
-
-🚫
-
-🚫
-
-😡
-
-❔
+5. Personal Attacks  

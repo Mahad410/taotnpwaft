@@ -7,6 +7,11 @@ $
 %
 ^
 &
+
+&
+This is some text
+& 
+
 **
 ((
 )
@@ -52,8 +57,28 @@ thisisalink.com
     ((
 
     ))
+]
+
+[
+    (
+
+    )
+]
+
+(
+    
+)
+
+
+
+[[
+
+
+]]
+
 
 (          ) 
+
 >
 <
 
@@ -77,3 +102,38 @@ using <tab>+ has a indented non-solid circle bullet point.
 
 
 ?  What is this
+
+
+
+$$$  This is centered text
+
+$
+This is red
+$
+
+>1.>2.> This is styled header
+
+++ What ++
+
+++What++
+
+__What__ (Bold)
+
+# 
+
+🚫
+
+🚫
+
+😡
+
+❔
+
+> creates a highlighted indent with blue bars on the left with each > 
+
+\\
+
+\\
+
+\
+
