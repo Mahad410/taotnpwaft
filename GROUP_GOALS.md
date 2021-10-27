@@ -18,7 +18,8 @@ Ok in the 25 weeks since I started this group over on Facebook groups, I have be
 
 9) More people on our IRC chat on irc.freenode.net #theartoftech so we can have a possible retro chat night. We all remember IRC right? right.
 
-
+10) Add a Twitch channel and live streams.
+    
 I used to have a IRC based PC tech support group primarily focused on 8, 16 and early 32 bit processor computers pretty much no matter what it waas. This was pre-2003. It was successful but IRC died, and a lot of our members lost focus. We can do this again if you're up to it. I have sent emails to everyone I've managed to find the list of old group members.
 
 While in our early days here on the modern Social Media we are off the back of a low subscriber YouTube tech channel. I fully intend on re-creating what was once a very lively thing in our chat room(s)

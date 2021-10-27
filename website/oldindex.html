@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="The Art of Tech: Not Playing with a full Tech website"/>
+  <meta name="robots" content="index,follow"/>
+  <title>The Art of Tech: Not Playing with a full Tech website</title>
+  <link rel="stylesheet" href="Libs/Bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="Libs/FontAwesome/css/font-awesome.css">
+  <link rel="stylesheet" href="Libs/JQWidgets/jqwidgets/styles/jqx.base.css">
+  <link rel="stylesheet" href="Libs/JQWidgets/jqwidgets/styles/jqx.bootstrap.css">
+  <link rel="stylesheet" href="Libs/Toastr/build/toastr.css">
+  <link rel="stylesheet" href="Styles/TAOT.css">
+  <script src="Libs/JQuery/jquery-3.6.0.js"></script>
+  <script src="Libs/popper.min.js"></script>
+  <script src="Libs/Bootstrap/js/bootstrap.js"></script>
+  <script src="Libs/JQWidgets/jqwidgets/jqx-all.js"></script>
+  <script src="Libs/Toastr/build/toastr.min.js"></script>
+  <script src="Scripts/TAOTGeneral.js"></script>
+  <script src="Scripts/TAOTGrid.js"></script>
+</head>
+<body>
+  <header>
+    <!-- Please see this codepen: https://codepen.io/gbowne1/pen/rNmmzOa -->
+
+      <nav class="navbar navbar-inverse"></nav>
+      <!-- Secondary Navigation inside <header> TopNav-->
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">The Art of Tech: NPWAFT</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="/about.html">Home</a></li>
+                <li><a href="/about.html"></a></li>
+                <li><a href="/about.html"></a></li>
+                <li><a href="/about.html"></a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+              </ul>
+              <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="search" class="btn btn-default">Submit</button>
+              </form>
+
+            </div>
+          </div>
+</nav>
+  </header>
+
+  <nav>
+    <!-- Main Navigation outside <header> SideNav-->
+      <div class="container-fluid text-center">
+        <div class="row content">
+          <div class="col-sm-2 sidenav">
+            <p><a href="#">Link</a></p>
+            <p><a href="#">Link</a></p>
+            <p><a href="#">Link</a></p>
+          </div>
+        </div>
+      </div>
+  </nav>
+
+<!--<div class="container">-->
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-2"><img src="Images/taotlogo.png" height="128" width="128"/></div>
+        <div class="col-md-4 TAOTMediumDivHeight"><h3 class="TAOTCenterDiv">The Art of Tech: NPWAFT</h3></div>
+        <div class="col-md-2 TAOTCenterDiv">
+        <div class="col-md-2 TAOTCenterDiv">
+          <button type="button" id="cmdRegister" class="btn btn-primary">Register</button>
+          <button type="button" id="cmdLogin" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#FormLoginModal">
+            Login
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav>
+    <div class="row">
+      <div class="col-md-2">
+      <table>
+        <tr><td class="TAOTPaddingFull">About</td></tr>
+        <tr><td class="TAOTPaddingFull">Blog</td></tr>
+        <tr><td class="TAOTPaddingFull">Membership</td></tr>
+      </table>
+    </div>
+    <div class="col-md-10">Left</div>
+  </div>
+  </nav>
+<!--</div>-->
+<!--Modal Login Form-->
+<div class="modal" id="FormLoginModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="txtUserName">@</span>
+            <input type="text" id="idUserName" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="txtUserName">
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="txtPassword">*</span>
+            <input type="password" id="idPassword" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="txtPassword">
+          </div>
+          <a href="">forgot password</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" id="cmdSubmit" onclick="Javascript: Login(); " class="btn btn-primary">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="grid"></div>
+<script type="text/javascript">
+  $(document).ready(function () {
+
+    InitialiseLoginGrid();
+  });
+</script>
+</div>
+</body>
+</html>

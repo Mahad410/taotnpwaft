@@ -3,7 +3,7 @@
 
 This code of conduct applies to all of this community's spaces, including public channels, private channels and direct messages, both online and off. Anyone who violates this code of conduct may be sanctioned or expelled from these spaces at the discretion of the administrators.
 
-The Art of Tech: Not Playing with a full Tech community and Greg/@gbowne1, are committed to creating an open and inviting community. Trolls are not welcome here. Everyone participating is expected to adhere to this code of conduct. It is adapted from the Contributor Covenant Code of Conduct.
+The Art of Tech: Not Playing with a Full Tech community and Greg/@gbowne1, are committed to creating an open and inviting community. Trolls are not welcome here. Everyone participating is expected to adhere to this code of conduct. It is adapted from the Contributor Covenant Code of Conduct.
 
 # Pledge
 
