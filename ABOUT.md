@@ -3,8 +3,6 @@
 
 ## This group is for members who are interested in Tech and IT and especially related advice. This group is designed to get you involved in sharing your experiences with the Windows, Linux and Unix operating systems and the apps that run in Linux and Unix or one of its derivatives, and technology in general. If new to Linux or Unix, the group can help. This site has been expanded to include all technology-related concepts, not just Linux- and Unix-related technology based  
 
-Hi everyone! My name is Gregory Bowne.
-
 Welcome to the The Art of Tech: Not Playing with a Full Tech Facebook group forum. This is an extension of the Facebook groups conversation / discussion and it is a place to learn, grow, share, educate, mentor, help, etc. AT the present we have ~130 members and most of them are active and we are growing. Please bare with us while we get everything set up.
 
 This work has been the result of a 5-10 year plan to bring back my former tech group of 1k - 2k members. I have a number of goals the first of which will be to reach 2k members, but have the largest core of those members be those willing to learn, grow, share, educate, mentor, help, etc.
@@ -14,8 +12,6 @@ My premise for creating The Art of Tech: Not Playing with a Full Tech Facebook i
 If anyone knows of such activity of those things on this group, report them and they will be removed/banned.
 
 We also have IRC and Discord available for chat and we plan on adding more platforms.
-
-The link to the Facebook group is www.facebook.com/groups/918445681921895/
 
 I will post the group links and rules as they are created officially.
 Thanks so very much and enjoy the group!
