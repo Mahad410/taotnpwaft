@@ -1,4 +1,4 @@
-** DRAFT **
+[DRAFT]
 
 Article I. Name and purpose of the organization.
 

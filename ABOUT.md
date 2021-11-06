@@ -15,3 +15,5 @@ We also have IRC and Discord available for chat and we plan on adding more platf
 
 I will post the group links and rules as they are created officially.
 Thanks so very much and enjoy the group!
+
+This eventually should be the content posted to the About page on our website (and/or) any other platorm.
