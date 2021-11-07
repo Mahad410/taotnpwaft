@@ -1,5 +1,7 @@
 # The Art of Tech: Not Playing with a Full Tech
 
+This is the current list of 
+
 Owner / Founder: @gbowne1
 
 Group Global Administrator: [Open Position]
@@ -12,7 +14,7 @@ YouTube Channel Owner: @gbowne1
 
 YouTube Sub-Owner: @swathe  
 
-YouTube Channel Moderators:  @idormain @swathe  @AmigaGod
+YouTube Channel Moderators:  @idormain @swathe @AmigaGod
 
 YouTube Channel Communications Manager: [Open Position]
 

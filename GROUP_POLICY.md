@@ -1,5 +1,7 @@
 [DRAFT]
 
+* Ideally this file should contain the business model governing rules for our organization which is The Art of Tech: Not Playing with a Full Tech, LLC. especially as it grows.
+
 Article I. Name and purpose of the organization.
 
  The Art of Tech: Not Playing With a Full Tech, LLC. 
