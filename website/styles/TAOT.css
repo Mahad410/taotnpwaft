@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: Uchen-Regular;
-    src: url("Fonts/Uchen-Regular.ttf") format('truetypef');
+    src: url("/website/Fonts/Uchen-Regular.ttf") format('truetypef');
     font-style: normal ;
     font-variant: normal;
     font-weight: normal ;

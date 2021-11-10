@@ -137,3 +137,5 @@ __What__ (Bold)
 
 \
 
+--- 
+Three - are Horiz rule

@@ -1,4 +1,4 @@
-Ok in the 25 weeks since I started this group over on Facebook groups, I have been asked by a few to lay out a few goals for our group. How far we take this group will depend largely on what the member base follows.
+Ok in the 25+ weeks since I started this group over on Facebook groups, I have been asked by a few to lay out a few goals for our group. How far we take this group will depend largely on what the member base follows.
 
 1) 1k Subscribers to our group Youtube channel then to 2,500.
 
@@ -29,3 +29,5 @@ Let us know what you think or would like We might be pretty far off in membershi
 Thanks,
 Your humble Admin,
 GKB
+
+How do we capture group rules.

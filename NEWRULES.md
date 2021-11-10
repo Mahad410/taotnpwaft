@@ -7,7 +7,7 @@ Inside the The Art of Tech:NPWAFT Discord, We want everyone to have a safe, fun,
 
 So, before we break down the server rules, everyone here would like to thank you for joining our family. We treat this server & community like our home. This community is a direct result of the type of people we encourage to participate and the rules we keep in place within the community; these rules we ask each and everyone of you to adhere to and follow. Rules listed above are not all the rules as the list would go all the way to the North Pole. So if a rule isnt listed but a mod asks you to stop what you are doing. You need to cease what you are doing thats wrong.
 
-@everyone If you agree with ALL the information in this channel, please react with the 
+[everyone], If you agree with ALL the information in this channel, please react with a :thumbsup:
 
 However, violations of the rules may result in a warning, kick, or ban, based on severity and this being said, all Admininstrative decisions are FINAL!
 
