@@ -3,11 +3,9 @@
 
 ## About these rules
 
-Inside the The Art of Tech:NPWAFT Discord, We want everyone to have a safe, fun, and enjoyable time in this server, therefore we have put in place a few rules... 
+Inside the The Art of Tech:NPWAFT Discord, We want everyone to have a safe, fun, and enjoyable time in this server, therefore we have put in place a few rules...  
 
 So, before we break down the server rules, everyone here would like to thank you for joining our family. We treat this server & community like our home. This community is a direct result of the type of people we encourage to participate and the rules we keep in place within the community; these rules we ask each and everyone of you to adhere to and follow. Rules listed above are not all the rules as the list would go all the way to the North Pole. So if a rule isnt listed but a mod asks you to stop what you are doing. You need to cease what you are doing thats wrong.
-
-[everyone], If you agree with ALL the information in this channel, please react with a :thumbsup:
 
 However, violations of the rules may result in a warning, kick, or ban, based on severity and this being said, all Admininstrative decisions are FINAL!
 
@@ -107,12 +105,12 @@ If you are learning to code at school/college/university, Please do not ask for 
 
 Specifically Prohibited Content:
 
-1. Begging/asking for financial support, items or jobs.
+1. Begging/asking for financial support, items or jobs.  
 
-2.  
+2. Excessive Trolling
 
-3. Excessive Trolling.
+3. Racially driven statements or 'slurs'.
 
-4. Racially driven statements or 'slurs'.
+4. Personal Attacks  
 
-5. Personal Attacks  
+[everyone], If you agree with ALL the information in this channel, please react with a :thumbsup:

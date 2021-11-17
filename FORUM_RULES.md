@@ -14,11 +14,12 @@ In order to preserve a climate that encourages both civil and fruitful dialogue,
 
 # The Rules
 
-Don't challenge or attack others. The discussions and comments are meant to stimulate conversation not to create contention. Let others have their say, just as you may. 
+Don't challenge or attack others. The discussions and comments are meant to stimulate conversation not to create contention. Let others have their say, just as you may.  
 
 Don't post commercial messages on any discussion list, resource library entry, or other area where others might see it. Contact people directly with product and service information if you believe itwould help them.
 
-Use caution when discussing products. Information posted on the lists and in the libraries is available for all to see, and comments are subject to libel, slander, and antitrust laws. 
+Use caution when discussing products. Information posted on the lists and in the libraries is available for all to see, and comments are subject to libel, slander, and antitrust laws.  
+
 All defamatory, abusive, profane, threatening, offensive, or illegal materials are strictly prohibited. Do not post anything that you would not want the world to see or that you would not want anyone to know came from you.  
 
 Please note carefully all items listed in the disclaimer and legal rules below, particularly regarding the copyright ownership of information posted.  
@@ -39,7 +40,7 @@ We will NOT tolerate people being berated / mocked for their choice of hardware 
 No talk of Warez or other illegal activity
 We are a group of professionals, techs, etc and we will not tolerate people asking about Torrents, ISO, Cracks or other illegal software. Anyone breaching this rule will be removed.
 
-# The Art of Tech: Not Playing with a full Tech Community Etiquette
+## The Art of Tech: Not Playing with a full Tech Community Etiquette  
 
 • State concisely and clearly the topic of your comments in the subject line. This allows members to respond more appropriately to your posting and makes it easier for members to search the archives by subject.  
 

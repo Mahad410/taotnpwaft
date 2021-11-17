@@ -1,4 +1,4 @@
-Ok in the 25+ weeks since I started this group over on Facebook groups, I have been asked by a few to lay out a few goals for our group. How far we take this group will depend largely on what the member base follows.
+# Ok in the 25+ weeks since I started this group over on Facebook groups, I have been asked by a few to lay out a few goals for our group. How far we take this group will depend largely on what the member base follows  
 
 1) 1k Subscribers to our group Youtube channel then to 2,500.
 
@@ -19,7 +19,7 @@ Ok in the 25+ weeks since I started this group over on Facebook groups, I have b
 9) More people on our IRC chat on irc.freenode.net #theartoftech so we can have a possible retro chat night. We all remember IRC right? right.
 
 10) Add a Twitch channel and live streams.
-    
+
 I used to have a IRC based PC tech support group primarily focused on 8, 16 and early 32 bit processor computers pretty much no matter what it waas. This was pre-2003. It was successful but IRC died, and a lot of our members lost focus. We can do this again if you're up to it. I have sent emails to everyone I've managed to find the list of old group members.
 
 While in our early days here on the modern Social Media we are off the back of a low subscriber YouTube tech channel. I fully intend on re-creating what was once a very lively thing in our chat room(s)

@@ -9,19 +9,17 @@ The Art of Tech: Not Playing with a Full Tech was created originally as a Facebo
 This repository also contains editor configuration/settings and workspace files for Sublime Text, Visual Studio, VSCode to aid staff in creating group content and other meta files and documentation.
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-bot-orange.svg?style=flat-square)](#contributors-)
-[![Issues](https://img.shields.io/github/issues/gbowne1/taotnpwaft/issues)](#issues)
-[![license](https://img.shields.io/github/license/gbowne1/taotnpwaft/LICENSE)](#license)
 
 ## Tech Stack 🗃
 
- Main Repository 
+ Main Repository
  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white"> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
- 
+
  Website:
- <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"> 
- <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" >   
- <img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=Apache&logoColor=white"> 
- <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"> 
+ <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
+ <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" >
+ <img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=Apache&logoColor=white">
+ <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white">
  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white">
  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white">
  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)">
@@ -29,34 +27,30 @@ This repository also contains editor configuration/settings and workspace files 
  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
 
  IDE: <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white">
- <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white"><img src="">
+ <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white">
 
- ## Our Platforms
+## Our Platforms
 
  <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">
  <img src="https://aleen42.github.io/badges/src/reddit.svg">
  <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">
  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
- 
 
 ## How to contribute ?
 
 - Get started with the Contributon Guidelines mentioned [here](https://github.com/gbowne1/taotnpwaft/blob/main/CONTRIBUTING.md)
 
-
 ## How to join?
 
-Joining The Art of Tech: Not Playing with a Full Tech is completely free of charge.  All that is required is 
+Joining The Art of Tech: Not Playing with a Full Tech is completely free of charge.  All that is required is
 
 ## Who is eligible to join?
 
 Everyone.
 
-## Questions? 
+## Questions?
 
-Ask a 
-
-
+Ask a
 
 ## Contributors
 

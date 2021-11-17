@@ -1,10 +1,10 @@
 # Content Creation Guidelines
 
-  * Target Community Member 
+* Target Community Member  
   
     Our community could be made up of email subscribers, social media followers, push notification subscribers, podcast subscribers, commenters, etc.  
 
-  * Content
+* Content
 
     Which topics should I write about?
     How in-depth do I need to go?
