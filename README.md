@@ -30,7 +30,7 @@ This repository also contains editor configuration/settings and workspace files 
  <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white">
 
 ## Our Platforms
-
+ <a href="https://discord.gg/"><img src="https://img.shields.io/discord/612575111718895616" alt="discord">
  <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">
  <img src="https://aleen42.github.io/badges/src/reddit.svg">
  <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">
@@ -46,11 +46,11 @@ Joining The Art of Tech: Not Playing with a Full Tech is completely free of char
 
 ## Who is eligible to join?
 
-Everyone.
+Everyone.  From hobbyists, homelabbers to professionals.
 
 ## Questions?
 
-Ask a
+Ask a question in our Discord.
 
 ## Contributors
 

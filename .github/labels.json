@@ -1,0 +1,15 @@
+[
+  {
+    "repositories": [
+      "gbowne1/taotnpwaft"
+    ],
+    "labels": [
+      {
+        "name": "good first issue",
+        "description": "is good for newcomers",
+        "color": "7057ff",
+        "alias": ""
+      }
+    ]
+  }
+]

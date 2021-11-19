@@ -1,4 +1,4 @@
-# Funding  
+# Funding
 
 ## About
 
@@ -20,7 +20,7 @@ o learn more about our funding activities or donate please email the maintainer 
 
 ## Funding History
 
-**This package needs your support to stay maintained.** 
+**This package needs your support to stay maintained.**  
 
 Open Source is free to use, but certainly not free to develop. If you have the
 means to reward this community, please consider doing so.

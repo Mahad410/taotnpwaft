@@ -1,6 +1,6 @@
 # The Art of Tech: Not Playing with a Full Tech
 
-This is the current list of 
+This is the current list of our group positions
 
 Owner / Founder: @gbowne1
 
@@ -8,11 +8,11 @@ Group Global Administrator: [Open Position]
 
 Group Global Moderators: [Open Position]
 
-YouTube Moderator(s): @idormain  
+YouTube Moderator(s): @idormain
 
 YouTube Channel Owner: @gbowne1
 
-YouTube Sub-Owner: @swathe  
+YouTube Sub-Owner: @swathe
 
 YouTube Channel Moderators:  @idormain @swathe @AmigaGod
 
@@ -26,11 +26,11 @@ Facebook Administrator(s): @AmigaGod @idormain
 
 Forum Global Administrator: [Open Position]
 
-Forum Global Moderator: @swathe  
+Forum Global Moderator: @swathe
 
-Forum Administrator(s): @idormain  @swathe  
+Forum Administrator(s): @idormain  @swathe
 
-Forum: Moderator(s): @AmigaGod  @idormain  
+Forum: Moderator(s): @AmigaGod  @idormain
 
 Reddit Staff: @AmigaGod  @gbowne1
 
@@ -40,12 +40,12 @@ Twitch Staff: [Open Position]
 
 TAOT Website Admin: [Open Position]
 
-Discord Staff:  
+Discord Staff:
    Admin Lv 1: @AmigaGod @idormain
    Admin Lv 2:  [Open Position]
    Admin Lv 3:  [Open Position]
    Moderator Lv 1: [Open Position]
-   Moderator Lv: 2 @Mr_Mordaeus  
+   Moderator Lv: 2 @Mr_Mordaeus
    Moderator Lv: 3 [Open Position]
    Support Lv: 1
    Support Lv: 2 @Moe @swathe
