@@ -10,20 +10,18 @@ Please take a moment to acquaint yourself with these important guidelines. If yo
 
 In order to preserve a climate that encourages both civil and fruitful dialogue, we reserve the right to suspend or terminate membership in this community for anyone who violate these rules.
 
-<hr>
+## The Rules
 
-# The Rules
-
-Don't challenge or attack others. The discussions and comments are meant to stimulate conversation not to create contention. Let others have their say, just as you may.  
+Don't challenge or attack others. The discussions and comments are meant to stimulate conversation not to create contention. Let others have their say, just as you may.
 
 Don't post commercial messages on any discussion list, resource library entry, or other area where others might see it. Contact people directly with product and service information if you believe itwould help them.
 
-Use caution when discussing products. Information posted on the lists and in the libraries is available for all to see, and comments are subject to libel, slander, and antitrust laws.  
+Use caution when discussing products. Information posted on the lists and in the libraries is available for all to see, and comments are subject to libel, slander, and antitrust laws.
 
-All defamatory, abusive, profane, threatening, offensive, or illegal materials are strictly prohibited. Do not post anything that you would not want the world to see or that you would not want anyone to know came from you.  
+All defamatory, abusive, profane, threatening, offensive, or illegal materials are strictly prohibited. Do not post anything that you would not want the world to see or that you would not want anyone to know came from you.
 
-Please note carefully all items listed in the disclaimer and legal rules below, particularly regarding the copyright ownership of information posted.  
-Remember that other participants have the right to reproduce postings to this site unless you specify otherwise. 
+Please note carefully all items listed in the disclaimer and legal rules below, particularly regarding the copyright ownership of information posted.
+Remember that other participants have the right to reproduce postings to this site unless you specify otherwise.
 
 Post your message or documents only to the most appropriate sections of our group/forum.
 Do not spam several boards with the same message.
@@ -40,17 +38,17 @@ We will NOT tolerate people being berated / mocked for their choice of hardware 
 No talk of Warez or other illegal activity
 We are a group of professionals, techs, etc and we will not tolerate people asking about Torrents, ISO, Cracks or other illegal software. Anyone breaching this rule will be removed.
 
-## The Art of Tech: Not Playing with a full Tech Community Etiquette  
+## The Art of Tech: Not Playing with a full Tech Community Etiquette
 
-• State concisely and clearly the topic of your comments in the subject line. This allows members to respond more appropriately to your posting and makes it easier for members to search the archives by subject.  
+• State concisely and clearly the topic of your comments in the subject line. This allows members to respond more appropriately to your posting and makes it easier for members to search the archives by subject.
 
-• Include only the relevant portions of the original message in your reply. Delete any header information, and put your response before the original posting. 
+• Include only the relevant portions of the original message in your reply. Delete any header information, and put your response before the original posting.
 
-• Only send a message to the entire list when it contains information that everyone can benefit from. 
+• Only send a message to the entire list when it contains information that everyone can benefit from.
 
 • Send messages such as "thanks for the information" or "me, too" to individuals--not to the entire forum.
 
-• Do not send administrative messages, such as remove me from the forum. Instead, use the web interface to change your settings or to remove yourself. If you are changing e-mail addresses, you do not need to remove yourself from the list and rejoin under your new e-mail address. Simply change your settings. 
+• Do not send administrative messages, such as remove me from the forum. Instead, use the web interface to change your settings or to remove yourself. If you are changing e-mail addresses, you do not need to remove yourself from the list and rejoin under your new e-mail address. Simply change your settings.
 
 * Use polite words to ask and answer, do not provoke flamming in the group with harsh words and vilify others.
 

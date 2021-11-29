@@ -30,6 +30,7 @@ This repository also contains editor configuration/settings and workspace files 
  <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white">
 
 ## Our Platforms
+
  <a href="https://discord.gg/"><img src="https://img.shields.io/discord/612575111718895616" alt="discord">
  <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">
  <img src="https://aleen42.github.io/badges/src/reddit.svg">
@@ -40,9 +41,11 @@ This repository also contains editor configuration/settings and workspace files 
 
 - Get started with the Contributon Guidelines mentioned [here](https://github.com/gbowne1/taotnpwaft/blob/main/CONTRIBUTING.md)
 
+We are actively looking for contributors to this group and its meta.  If you would like to see the things we need help with, please see TODO.md and also the [Issues] tab and the Project board on this repository as well as the one at [Wesbsite Repository](https://www.github.com/gbowne1/taotnpwaft_site/)
+
 ## How to join?
 
-Joining The Art of Tech: Not Playing with a Full Tech is completely free of charge.  All that is required is
+Joining The Art of Tech: Not Playing with a Full Tech is completely free of charge.  All that is required is participating in or having an interest in tech, either professionally or non-professional.
 
 ## Who is eligible to join?
 
@@ -62,6 +65,8 @@ Thanks goes to these wonderful people ✨✨:
 </a>
 <p>Made with [contrib.rocks](https://contrib.rocks)</p>
 
-**Congrats!!🎉 You have read this far, it means you know our motive very well and we would love to see your support 🙌** <br /> <br />
-    **1. Star (🌟) this repo.** <br />
-    **3. Create a PR to improve the contents of this repo.**
+- Congrats!! You have read this far, it means you know our motive very well and we would love to see your support
+
+- 1. Star this repository
+
+- 2. Create a PR to improve the contents of this repo.

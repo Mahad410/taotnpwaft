@@ -1,0 +1,56 @@
+stages:
+ - build
+ - deploy
+
+before_script:
+ - echo BEGINNING
+
+#------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------
+
+#----------------------------
+# Build Website Pieces
+#----------------------------
+build_web_production:
+  stage: build
+  script:
+    - $Env:Path += ";C:\Program Files\nodejs"
+    - npm install
+    - npm run build
+  only:
+    - main
+  artifacts:
+   paths:
+    - "$CI_PROJECT_DIR/build"
+  environment:
+    name: production
+    url: http://example.com
+  tags:
+    - shell
+#----------------------------
+# End Build Website Pieces
+#----------------------------
+
+#------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------
+
+#----------------------------
+# Deploy Website Pieces
+#----------------------------
+deploy_web_production:
+ stage: deploy
+ only:
+  - main
+ script:
+  - $Env:Path += ";C:\Program Files (x86)\IIS\Microsoft Web Deploy V3\"
+  - msdeploy -verb:sync -source:contentPath="$CI_PROJECT_DIR/build" -dest:contentPath="IIS_WEBSITE_NAME",ComputerName="https://IISSERVER:8172/msdeploy.axd?site=IIS_WEBSITE_NAME",UserName=$CI_USERNAME,Password=$CI_PASSWORD,IncludeAcls='False',AuthType='Basic' -skip:objectName=filePath,absolutePath=.*web\.config -enableRule:AppOffline -disableLink:AppPoolExtension -disableLink:ContentExtension -disableLink:CertificateExtension -allowUntrusted -userAgent="VSCmdLine:WTE1.0.0.0"
+ dependencies:
+  - build_web_production
+ environment:
+  name: test
+  url: https://example.com
+ artifacts:
+  paths:
+   - "$CI_PROJECT_DIR/build"
+ tags:
+  - shell

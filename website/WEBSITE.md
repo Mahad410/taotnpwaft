@@ -1,9 +1,72 @@
 # This is the description of the functionality and contents of TAOT website
 
-## Landing Page (index.html)
+This is a IIS Deployed website
+
+Pre-Login
+
+* Possibly a splash screen
+* 2FA?
+
+* User Registration
+  (form)
+File: register.php / register.html
+  USA: Name, Address, Address 2, County, City/Town, State, ZIP+4, Country [US, USA, United States] Phone, email, website, social links&icons
+
+  Place for user to list / input their skillsets: i.e [Web] [IT] [Hobbyist] [Cloud] [Azure] [Kubernetes] [DevOps]
+
+  Elsewhere:  Name, Address, Address 2, County, City/Town, State, Post Code, Country, Phone, email, website, social links&icons,
+
+  Confirm Password
+  "Already have an account, Log in [here]"
+
+## Login
+
+File: login.php / login.html
+
+[] Verification of email, password and username
+[] Forgot password // password reset request
+[Invalid username/password popup // red warning message]
+{Login Succesful prompt/popup?}
+[RememberMe]
+"Not Logged in? Create an account"
+
+## User Profile
+
+New user creates profile:
+
+* Displays information from database including location information
+
+* Uploads for photo and/or avatar [selection]
+
+* Social Media Links
+
+## Home/Landing Page (index.html)
+
+* Left SideNav that pushes landing page content to right when menu X is opened and returns when closed
 
 * Social Media Icons:
    Facebook, Reddit, Discord, ProBoards, Twitter, Instagram, YouTube [fontawesome]
+
+* FontAwesome / Material Icons:
+  [BellNotification] [Gears] [User] [Users]
+
+User gets notified of new messages to read in 'Bell' icon
+
+Search bar: Mostly used for searching site for content
+
+This page has only basic information about group
+
+User should easily be able to locate contact information, login, register
+
+Add Copyright and Terms and Conditions and Policy pages.
+
+Add 404 page
+
+Switcher to turn on/off Light / Dark Mode
+
+`Logged in` gives priveledges to user:
+[] Add other users/members as 'friends' // Friend Request
+[] Create blog post with correct priveledges
 
 ## About (about.html)
 
@@ -18,6 +81,8 @@
 
 ## Blog (blog.html)
 
+* Uses Bootsrap 'card', `container', etc.
+
 * Blog form with photo?
 
 * Blog Title
@@ -27,6 +92,8 @@
 * Name / UserID of creator
 
 * avatar/sm. pic of creator
+
+* clicking on Avatar / Pic sends user to creator profile
 
 * Social Media sharing icons [fontawesome] // ability to share posts on other platforms
 
@@ -40,12 +107,19 @@
 
 * Allow admin or user login to create, update, delete a blog post or comment if Authenticated
 
+* Like, Dislike and Reporting of post
+
+* Enable f`ollowability` of `blog poster` & Show # of Follows
+
 [Codebase/Tech]:
  HTML5, CSS3, PHP7-8, Ajax, JQuery 3.6.0, MySQL Database, Javascript ES6/ES7
 
 ## Chat (chat.html)
 
 * This chat to be used outside of any other chat services and for new members to quickly contact staff/admin/team
+* Timestamps
+* Message Read flag
+* Users online frame
 
 [Codebase/Tech]:
  HTML5, CSS3, PHP7-8, Ajax, JQuery 3.6.0, MySQL Database, Javascript ES6/ES7
@@ -53,17 +127,46 @@
 ## Contact (contact.html)
 
 * Contact form with fieldset
+
+[Name] [Address] [Address2] [City/Town] [Phone] [Email] [Country] [Postcode]
+[Website] [TextArea] [Subject]
+
 * Bootstrap & FontAwesome
+
+Verification/Validiation of fields (PHP, Javascript, JQuery, Ajax)
 
 ## Admin (admin.html)
 
-Other:
- Place to post rules
+[Ban] & [Warning]
+[ResetPassword]
+[ResetUserID]
+
+## Settings (settings.html)
+
+These are settings specific to user space.  Admin priviledges may have a little more.
+
+[Privacy] [Display] [Language] [ActivityLog] [PreferencesForFeed]
+
+## Footer
+
+Style: Fixed/Sticky
+[SocialIcons] [Newsletter:Register:] [UsefulLinks]
+[Register] [Copyright] [Terms] [Privacy]
+
+## Associated Databases
+
+* User associated database(s)
+
+
+## Other
+
+ Section Place to post group rules/ettiquite/
  RSS Feeds?
 
-SEO:
+## SEO:
 Google Ads
 Google ReCaptcha
 Doubleclick.net
 150 character description of each page in meta description
 SEO keywords in meta keywords for each page
+OpenGraph and Twitter meta
