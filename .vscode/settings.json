@@ -12,6 +12,8 @@
     "editor.defaultFormatter": "vscode.typescript-language-features",
     "editor.formatOnSave": true
   },
+  "terminal.integrated.env.linux": {},
+  "terminal.external.linuxExec": "bash",
   "files.trimTrailingWhitespace": true,
   "files.trimFinalNewlines": true,
   "files.insertFinalNewline": true,
@@ -32,4 +34,11 @@
   "[plaintext]": {
     "files.insertFinalNewline": false
   },
+
+  "terminal.integrated.shell.linux": "/usr/bin/",
+  "terminal.integrated.shellArgs.linux": [
+      "-l",
+      "-d 3"
+    ]
+  }
 }

@@ -39,7 +39,7 @@ This repository also contains editor configuration/settings and workspace files 
 
 ## How to contribute ?
 
-- Get started with the Contributon Guidelines mentioned [here](https://github.com/gbowne1/taotnpwaft/blob/main/CONTRIBUTING.md)
+Get started with the Contributon Guidelines mentioned [here](https://github.com/gbowne1/taotnpwaft/blob/main/CONTRIBUTING.md)
 
 We are actively looking for contributors to this group and its meta.  If you would like to see the things we need help with, please see TODO.md and also the [Issues] tab and the Project board on this repository as well as the one at [Wesbsite Repository](https://www.github.com/gbowne1/taotnpwaft_site/)
 
@@ -65,8 +65,22 @@ Thanks goes to these wonderful people ✨✨:
 </a>
 <p>Made with [contrib.rocks](https://contrib.rocks)</p>
 
-- Congrats!! You have read this far, it means you know our motive very well and we would love to see your support
+Congrats!! You have read this far, it means you know our motive very well and we would love to see your support please consider contributing to our documentation or supporting us.  Your participation lets us know you are interested in helping us grow.
 
-- 1. Star this repository
+There are a few things you can do to help us out.
 
-- 2. Create a PR to improve the contents of this repo.
+* Star this repository
+
+* Follow this repository
+
+* Create a PR to improve the contents of this repo.
+
+* Create an issue
+
+* Request a feature.
+
+* Bug report our site and/or content
+
+* Consider financially supporting us (link to come soon)
+
+* Help us create or edit content

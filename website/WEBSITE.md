@@ -1,6 +1,6 @@
 # This is the description of the functionality and contents of TAOT website
 
-This is a IIS Deployed website
+This is an IIS Deployed website
 
 Pre-Login
 
@@ -21,14 +21,19 @@ File: register.php / register.html
 
 ## Login
 
-File: login.php / login.html
+File: login.php / login.html / login.js
+Login is a modal/popper
 
-[] Verification of email, password and username
-[] Forgot password // password reset request
+Verification of email, password and username
+Forgot password // password reset request
+
 [Invalid username/password popup // red warning message]
 {Login Succesful prompt/popup?}
 [RememberMe]
 "Not Logged in? Create an account"
+"Already have an account? [Login Link]"
+Repeat Password for verification?
+"By creating an account you agree to our "TOS" [Link]"
 
 ## User Profile
 
@@ -39,6 +44,12 @@ New user creates profile:
 * Uploads for photo and/or avatar [selection]
 
 * Social Media Links
+
+Returning user:
+
+Can search profiles
+Add Friends
+Edit Profile
 
 ## Home/Landing Page (index.html)
 
@@ -65,16 +76,19 @@ Add 404 page
 Switcher to turn on/off Light / Dark Mode
 
 `Logged in` gives priveledges to user:
+Users set as an admin will be able to:
+Users set as a moderator will be able to:
 [] Add other users/members as 'friends' // Friend Request
-[] Create blog post with correct priveledges
+[] Create and/or edit blog post
 
 ## About (about.html)
 
 * Group History
 
   * Initial members on YouTube live stream chat and Facebook Groups
+  * Group was created on: March 7th, 2020
 
-  * Created Discord
+  * Created Discord in M2020
 
 * Who, what, when, where, etc
   Why do we exist? What do we do? Who we are? Where are we found?
@@ -111,6 +125,8 @@ Switcher to turn on/off Light / Dark Mode
 
 * Enable f`ollowability` of `blog poster` & Show # of Follows
 
+* User permission can only allow own post editing.
+*
 [Codebase/Tech]:
  HTML5, CSS3, PHP7-8, Ajax, JQuery 3.6.0, MySQL Database, Javascript ES6/ES7
 
@@ -137,7 +153,7 @@ Verification/Validiation of fields (PHP, Javascript, JQuery, Ajax)
 
 ## Admin (admin.html)
 
-[Ban] & [Warning]
+Issue [Ban] & [Warning]
 [ResetPassword]
 [ResetUserID]
 
@@ -155,8 +171,8 @@ Style: Fixed/Sticky
 
 ## Associated Databases
 
-* User associated database(s)
-
+* User associated database(s) / Members (stores contact info and passwords??)
+* Blog db 
 
 ## Other
 

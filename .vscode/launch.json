@@ -1,0 +1,85 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Built-in web server",
+      "type": "php",
+      "request": "launch",
+      "runtimeArgs": [
+        "-dxdebug.mode=debug",
+        "-dxdebug.start_with_request=yes",
+        "-S",
+        "localhost:0"
+      ],
+      "program": "",
+      "cwd": "${workspaceRoot}",
+      "port": 9003,
+      "serverReadyAction": {
+        "pattern": "Development Server \\(http://localhost:([0-9]+)\\) started",
+        "uriFormat": "http://localhost:%s",
+        "action": "openExternally"
+      }
+    },
+    {
+      "type": "firefox",
+      "request": "launch",
+      "reAttach": true,
+      "name": "Launch localhost",
+      "url": "http://localhost/index.html",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "",
+      "type": "",
+      "request": "",
+      "program": "",
+      "console": "",
+      "linux": {"envFile": "${workspaceFolder}/.env"},
+      "env": {
+        "":null
+      }
+    },
+    {
+      "name": "",
+      "type": "",
+      "request": "",
+      "port": 5502,
+      "host": "127.0.0.1",
+      "pathMappings": [
+        {
+          "localRoot": "${workspaceFolder}",
+          "remoteRoot": "/workspaces/taotnpwaft"
+        }
+      ]
+    },
+    {
+      "name": "Listen for Xdebug",
+      "type": "php",
+      "request": "launch",
+      "port": 9000
+    }
+    {
+      "name": "Launch Built-in server",
+      "type": "php",
+      "request": "launch",
+      "runtimeArgs": [
+        "-S",
+        "localhost:8888",
+        "-t",
+
+      ],
+      "pathMappings": {
+        "":
+      },
+      "debugServer": 4711,
+      "object": "",
+      "port": 9000,
+      "serverReadyAction": {
+        "action": "openExternally"
+      }
+    }
+  ]
+}
