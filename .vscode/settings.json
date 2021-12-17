@@ -34,11 +34,6 @@
   "[plaintext]": {
     "files.insertFinalNewline": false
   },
-
-  "terminal.integrated.shell.linux": "/usr/bin/",
-  "terminal.integrated.shellArgs.linux": [
-      "-l",
-      "-d 3"
-    ]
-  }
+  "terminal.integrated.profile.linux":,
+  },
 }

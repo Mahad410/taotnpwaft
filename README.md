@@ -31,17 +31,19 @@ This repository also contains editor configuration/settings and workspace files 
 
 ## Our Platforms
 
- <a href="https://discord.gg/"><img src="https://img.shields.io/discord/612575111718895616" alt="discord">
+ <img src="https://img.shields.io/discord/612575111718895616" alt="discord">
  <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">
  <img src="https://aleen42.github.io/badges/src/reddit.svg">
  <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">
  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
 
-## How to contribute ?
+## How to contribute?
 
-Get started with the Contributon Guidelines mentioned [here](https://github.com/gbowne1/taotnpwaft/blob/main/CONTRIBUTING.md)
+Get started with the contribution guidelines [here](https://github.com/gbowne1/taotnpwaft/blob/main/CONTRIBUTING.md).
 
-We are actively looking for contributors to this group and its meta.  If you would like to see the things we need help with, please see TODO.md and also the [Issues] tab and the Project board on this repository as well as the one at [Wesbsite Repository](https://www.github.com/gbowne1/taotnpwaft_site/)
+We are actively looking for active contributors and participation to this group and its meta.  If you would like to see the things we need help with, please see TODO.md and also the [Issues] tab and the Project board on this repository as well as the one at [Wesbsite Repository](https://www.github.com/gbowne1/taotnpwaft_site/)
+
+We would like to encourage you to participate in making this one of the best social media based tech groups there is.
 
 ## How to join?
 

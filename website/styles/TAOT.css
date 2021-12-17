@@ -93,6 +93,10 @@
     margin-left: 50px;
 }
 
+.TAOTFooter {
+    position:fixed;
+}
+
 #main {
     transition: all .5s ease-out;
     position: relative;

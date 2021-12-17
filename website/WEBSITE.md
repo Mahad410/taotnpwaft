@@ -172,7 +172,7 @@ Style: Fixed/Sticky
 ## Associated Databases
 
 * User associated database(s) / Members (stores contact info and passwords??)
-* Blog db 
+* Blog db
 
 ## Other
 

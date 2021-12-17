@@ -6,4 +6,4 @@ This is probably better shared in an app like Slack,Trello,Asana, etc. or offere
 1. Create a new logo
 2. Add SEO
 3. Organize `<head></head>`
-4. Add Twitter and OpenGraph SEO meta
+4. Add Twitter and OpenGraph SEO meta to website

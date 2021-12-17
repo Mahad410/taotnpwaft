@@ -1,0 +1,73 @@
+{
+  "name": "",
+  "dockerFile": "Dockerfile",
+  "settings": {
+    "terminal.integrated.profiles.linux": {
+      "bash": {
+        "path": "bash",
+        "icon": "terminal-bash"
+      },
+      "zsh": {
+        "path": "zsh"
+      },
+      "fish": {
+        "path": "fish"
+      },
+      "tmux": {
+        "path": "tmux",
+        "icon": "terminal-tmux"
+      },
+      "pwsh": {
+        "path": "pwsh",
+        "icon": "terminal-powershell"
+      }
+    },
+  },
+  "image": "mcr.microsoft.com/vscode/devcontainers/dotnet: 5.0",
+  "features": {
+    "github-cli": "latest",
+    "ms-dotnettools.csharp": "latest",
+    "esnbp.prettier.vscode": "latest",
+    "editorconfig.editorconfig": "latest",
+   },
+  "remoteUser": "your-user-name-here",
+  "user": "",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+
+  "remoteUser": "",
+
+  "workspaceFolder": "/website",
+
+  "forwardPorts": [
+    3000
+  ],
+  "appPort": [
+    3000,
+    "8921:5000"
+  ],
+  "extensions": [
+    "dbaeumer.vscode-eslint"
+  ],
+},
+{
+"service": "the-name-of-the-service-you-want-to-work-with-in-vscode",
+"workspaceFolder": "/default/workspace/path/in/container/to/open",
+"shutdownAction": "stopCompose",
+"dockerComposeFile": "../docker-compose.yml",
+},
+{
+"image":{
+  "mcr.microsoft.com/vscode/devcontainers/php",
+}
+{
+ "image":{
+ "mcr.microsoft.com/vscode/devcontainers/javascript-node"
+ },
+}
+{
+  "image":{
+    "mcr.microsoft.com/vscode/devcontainers/base"},
+  }
+}
