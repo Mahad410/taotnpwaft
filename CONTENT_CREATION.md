@@ -1,8 +1,8 @@
 # Content Creation Guidelines
 
-* Target Community Member  
-  
-    Our community could be made up of email subscribers, social media followers, push notification subscribers, podcast subscribers, commenters, etc.  
+* Target Community Member
+
+    Our community could be made up of email subscribers, social media followers, push notification subscribers, podcast subscribers, commenters, etc.
 
 * Content
 
@@ -16,7 +16,3 @@
     Our needs will be to be able to easily understand what our product is, why it’s special and why it matters to our community and the rest of the tech community as a whole.”
 
 ## Vlog / VOD
-
- 
-
-   

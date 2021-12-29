@@ -1,7 +1,5 @@
 {
   "name": "[Optional] Your project name here",
-
-  // The order of the files is important since later files override previous ones
   "dockerComposeFile": ["../docker-compose.yml", "docker-compose.extend.yml"],
 
   "service": "your-service-name-here",

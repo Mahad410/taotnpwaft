@@ -39,13 +39,12 @@
     <meta name="google-site-verification" content="">
     <script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/"></script>
     <link rel="preconnect dns-prefetch" href="https://www.google-analytics.com">
-    <script
-        src="https://partner.googleadservices.com/gampad/cookie.js?domain="></script>
+    <script src="https://partner.googleadservices.com/gampad/cookie.js?domain="></script>
     <link rel="sitemap" type="application/xml" href="/sitemap.xml">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script>
     <script type="text/javascript" async="" src="https://www.google.com/pagead/conversion_async.js"></script>
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
     <script type="text/javascript"
         src="//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
@@ -56,7 +55,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto|Open Sans|Lato|Monsterrat" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script async="" src="https://www.google-analytics.com/analytics.js"></script>
-    <link rel="stylesheet" href="styles/TAOT.css">
+    <link rel="stylesheet" type="text/css" href="styles/TAOT.css">
     <script src="Libs/JQuery/jquery-3.6.0.js"></script>
     <script src="Libs/popper.min.js"></script>
     <script src="Libs/Bootstrap/js/bootstrap.js"></script>
@@ -98,10 +97,9 @@
                 </form>
 
                 <button type="button" id="cmdRegister" class="btn btn-primary" data-bs-toggle="modal"
-                    data-bs-target="#FormRegisterModal" style="display:inline-block"
-                    href="register.html">Register</button>
-                <button type="button" id="cmdLogin" style="display:inline-block" class="btn btn-primary"
-                    data-bs-toggle="modal" data-bs-target="#FormLoginModal">
+                    data-bs-target="#FormRegisterModal" style="display:inline-block">Register</button>
+                <button type="button" id="cmdLogin" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#FormLoginModal" style="display:inline-block">
                     Login
                 </button>
 
@@ -132,7 +130,7 @@
                     <div class="col-md-9 col-md-offset-9">
                         <h1 class="page-header"> About</h1>
                         <h2>The Art of Tech: Not Playing with a Full Tech</h2>
-                        <p class="lead text-lg-center">Welcome to the The Art of Tech: Not Playing with a Full Tech
+                        <p class="lead text-lg-center">Welcome to The Art of Tech: Not Playing with a Full Tech
                             Facebook group website.
                             This is a place to learn, grow, share, educate, mentor, help, etc.</p>
                         <p>The goal of this group is to have a safe place to discuss and share our tech lives, the many,
@@ -146,45 +144,95 @@
         </div>
     </main>
     <!-- /#page-content-wrapper -->
-    <footer class="mt-5 bg-dark text-white text-center">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-3 item d-flex align-self-center">
-                    <h3>Services</h3>
-                    <ul>
-                        <li><a href="#">Web design</a></li>
-                        <li><a href="#">Development</a></li>
-                        <li><a href="#">Hosting</a></li>
-                    </ul>
+    <!-- Footer -->
+    <footer>
+        <!-- Footer main -->
+        <section class="ft-main">
+            <div class="ft-main-item">
+                <h2 class="ft-title">
+                    About
+                </h2>
+                <ul>
+                    <li><a href="#">Services</a></li>
+                </ul>
+            </div>
+            <div class="ft-main-item">
+                <h2 class="ft-title">Resources</h2>
+                <ul>
+                    <li><a href="#">Docs</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">For Beginners</a></li>
+                    <li><a href="#">Developers</a></li>
+                </ul>
+            </div>
+            <div class="ft-main-item">
+                <h2 class="ft-title">Contact</h2>
+                <ul>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Sales</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Sponsor</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Developers</a></li>
+                </ul>
+            </div>
+            <div class="ft-main-item">
+                <h2 class="ft-title">Stay Updated</h2>
+                <p>Get free updates before others do!</p>
+                <form>
+                    <input type="email" name="email" placeholder="Enter email address">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer social -->
+        <section class="ft-social">
+            <ul class="ft-social-list">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-github"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </section>
+
+        <!-- Footer legal -->
+        <section class="ft-legal">
+            <ul class="ft-legal-list">
+                <li><a href="#">Terms &amp; Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li>&copy; 2021 by The Art of Tech: Not Playing with a Full Tech, LLC</li>
+            </ul>
+        </section>
+    </footer>
+    <!--Modal Register Form-->
+    <div class="modal" id="FormRegister" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Register</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="col-md-3 item">
-                    <h3>Services</h3>
-                    <ul>
-                        <li><a href="#">Web design</a></li>
-                        <li><a href="#">Development</a></li>
-                        <li><a href="#">Hosting</a></li>
-                    </ul>
+                <div class="modal-body">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="txtUserName">@</span>
+                        <input type="text" id="idUserName" class="form-control" placeholder="Username"
+                            aria-label="Username" aria-describedby="txtUserName">
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="txtPassword">*</span>
+                        <input type="password" id="idPassword" class="form-control" placeholder="Password"
+                            aria-label="Password" aria-describedby="txtPassword">
+                    </div>
+                    <a href="">forgot password</a>
                 </div>
-                <div class="col-md-3 item">
-                    <h3>About</h3>
-                    <ul>
-                        <li><a href="#">Company</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Careers</a></li>
-                    </ul>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" id="cmdSubmit" onclick="Javascript: Login(); "
+                        class="btn btn-primary">Login</button>
                 </div>
-                <div class="col-md-3 item text">
-                    <h3></h3>
-                    <p></p>
-                </div>
-                <div class="col item social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
-                            class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-youtube"></i></a><a href="#"><i
-                            class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-google"></i></a>
-                </div>
-                <i class="fa fa-copyright" style="font-size:24px"></i>
             </div>
         </div>
-    </footer>
+    </div>
     <!--Modal Login Form-->
     <div class="modal" id="FormLoginModal" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered">

@@ -10,7 +10,7 @@ If we have missed your name please feel free to add it with contribution link.
 | **Github User**                                    |          **Contribution**        |
 |----------------------------------------------------|----------------------------------|
 | [@name](link)                                      | [Note](link)                     |
-| [@gbowne1] [(https://www.github.com/gbowne1/)]     |
+| [@gbowne1] [(https://www.github.com/gbowne1/)]     |  Project Lead, initial commit
 | [@mckinnon81] [https://www.github.com/mckinnon81/] |
 | [@swathe] [https://www.github.com/swathe/]         |
-| [@idormain] [https://www.github.com/idormain/]     |
+| [@idormain] [https://www.github.com/idormain/]     | PHP, initial commits,
