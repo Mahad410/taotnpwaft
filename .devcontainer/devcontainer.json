@@ -1,21 +1,20 @@
 {
   "name": "",
-  "settings": {
-    
-  },
+  "settings": {},
   "features": {
     "github-cli": "latest",
     "ms-dotnettools.csharp": "latest",
     "esnbp.prettier.vscode": "latest",
     "editorconfig.editorconfig": "latest",
-   },
+  },
   "remoteUser": "your-user-name-here",
   "build": {
     "dockerfile": "Dockerfile"
   },
   "containerUser": "",
   "forwardPorts": [
-    3000
+    3000,
+    3001
   ],
   "appPort": [
     3000,
@@ -23,6 +22,10 @@
   "extensions": [
     "dbaeumer.vscode-eslint"
   ],
-"workspaceFolder": "/website/",
-"shutdownAction": "stopContainer"
-}
+  "workspaceFolder": "/website/",
+  "shutdownAction": "stopContainer"
+},
+"remote.containers.defaultExtensions": [
+  "eamodio.gitlens",
+  "mutantdino.resourcemonitor"
+]

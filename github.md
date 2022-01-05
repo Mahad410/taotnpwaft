@@ -1,7 +1,7 @@
 #This is a style guide for github!
 @
 
-# This Line creates a ____  (also # is a top level heading so places a underline/line break under it) 
+# This Line creates a ____  (also # is a top level heading so places a underline/line break under it)
 
 $
 %
@@ -10,7 +10,7 @@ $
 
 &
 This is some text
-& 
+&
 
 **
 ((
@@ -31,11 +31,11 @@ _
 
 [https://www.example.com]  this is a link style use full link with http:// or https:// ?
 
->   
+>
 
 >>> Using '>' This is an indentation
 
-? This is a styled header 
+? This is a styled header
 \
 /
 =
@@ -66,7 +66,7 @@ thisisalink.com
 ]
 
 (
-    
+
 )
 
 
@@ -77,12 +77,12 @@ thisisalink.com
 ]]
 
 
-(          ) 
+(          )
 
 >
 <
 
-?  
+?
 
 $$
 This is centered and no spaces text styled text
@@ -94,7 +94,7 @@ This is a style
 
 + This is bullet item indented
 
-using <tab>+ has a indented non-solid circle bullet point.  
+using <tab>+ has a indented non-solid circle bullet point.
 
 {
 
@@ -119,7 +119,7 @@ $
 
 __What__ (Bold)
 
-# 
+#
 
 🚫
 
@@ -129,7 +129,7 @@ __What__ (Bold)
 
 ❔
 
-> creates a highlighted indent with blue bars on the left with each > 
+> creates a highlighted indent with blue bars on the left with each >
 
 \\
 
@@ -137,5 +137,8 @@ __What__ (Bold)
 
 \
 
---- 
+---
 Three - are Horiz rule
+
+
+``` I am a piece of code ```

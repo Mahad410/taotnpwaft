@@ -7,3 +7,5 @@ This is probably better shared in an app like Slack,Trello,Asana, etc. or offere
 2. Add SEO to /website/
 3. Organize `<head></head>` in /website/ HTML files
 4. Add Twitter and OpenGraph SEO meta to website
+5. Add Blog functionality
+6. 

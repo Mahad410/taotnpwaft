@@ -19,6 +19,9 @@ The frameworks and libraries we use are:
 - Express
 - Toastr
 - JQuery
+- Bootstrap 5
+- Google Material
+- FontAwesome
 
 The SQL and Databases we use are:
 
@@ -38,6 +41,21 @@ Please follow the common style guides for each language, especially with respect
 
 - Brackets (), [] and {}
 - Spacing and Indenting
+- Usage and placement of ; and ,
+
+Our fonts are:
+
+ Google Fonts, all 'Regular'
+ - Roboto
+ - Monsterrat
+ - Lato
+ - Open Sans
+
+Our colors are:
+
+ -
+
+Please use code languages and styles compatible with up to 2 previous version releases.
 
 We will be using either Travis CI/CD and/or CircleCI/CD where noted.
 

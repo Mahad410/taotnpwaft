@@ -61,7 +61,7 @@ jobs1:
   allow_failures:
   - php: 7.4
     env: KEY=VALUE
-addons:
+addons: ".travis.yml",
 env:
   - DB=mysql
 
@@ -82,4 +82,4 @@ language:
           bash
           nodejs, node, node.js, node_js
 cache:
-  - ""
+ packages: "npm"

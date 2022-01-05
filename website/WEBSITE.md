@@ -4,7 +4,7 @@ This is an IIS Deployed website
 
 Pre-Login
 
-* Possibly a splash screen
+* Possibly a splash screen or modal pop up, welcoming '[user]'. Check for returning user.
 * 2FA?
 
 * User Registration
@@ -123,10 +123,10 @@ Users set as a moderator will be able to:
 
 * Like, Dislike and Reporting of post
 
-* Enable f`ollowability` of `blog poster` & Show # of Follows
+* Enable 'followability` of `blog poster` & Show # of Follows
 
 * User permission can only allow own post editing.
-*
+
 [Codebase/Tech]:
  HTML5, CSS3, PHP7-8, Ajax, JQuery 3.6.0, MySQL Database, Javascript ES6/ES7
 
@@ -142,7 +142,7 @@ Users set as a moderator will be able to:
 
 ## Contact (contact.html)
 
-* Contact form with fieldset
+* Contact form with fieldset:
 
 [Name] [Address] [Address2] [City/Town] [Phone] [Email] [Country] [Postcode]
 [Website] [TextArea] [Subject]
@@ -159,7 +159,7 @@ Issue [Ban] & [Warning]
 
 ## Settings (settings.html)
 
-These are settings specific to user space.  Admin priviledges may have a little more.
+These are settings specific to user space.  Admin privileges may have a little more.
 
 [Privacy] [Display] [Language] [ActivityLog] [PreferencesForFeed]
 
