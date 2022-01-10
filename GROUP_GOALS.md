@@ -1,4 +1,4 @@
-# Ok in the 25+ weeks since I started this group over on Facebook groups, I have been asked by a few to lay out a few goals for our group. How far we take this group will depend largely on what the member base follows  
+# Ok in the 25+ weeks since I started this group over on Facebook groups, I have been asked by a few to lay out a few goals for our group. How far we take this group will depend largely on what the member base follows
 
 1) 1k Subscribers to our group Youtube channel then to 2,500.
 
@@ -24,7 +24,7 @@ I used to have a IRC based PC tech support group primarily focused on 8, 16 and 
 
 While in our early days here on the modern Social Media we are off the back of a low subscriber YouTube tech channel. I fully intend on re-creating what was once a very lively thing in our chat room(s)
 
-Let us know what you think or would like We might be pretty far off in membership/subcribership to our various platforms yet to expeand too much yet, but we intend on growing while staying reasonably grounded. Also, Let us know if you can help us grow.
+Let us know what you think or would like We might be pretty far off in membership/subcribership to our various platforms yet to expand too much yet, but we intend on growing while staying reasonably grounded. Also, Let us know if you can help us grow.
 
 Thanks,
 Your humble Admin,

@@ -13,10 +13,9 @@ It's very global, so you might need to take some extra steps to get it to work f
 
 1. Fork the [taotnpwaft repository](https://github.com/gbowne1/taotnpwaft).
 2. Check out your fork and open it in your favorite IDE.
+3. If your favorite IDE is not below, please add your workspace and or project configuration settings to this project.
 
 ## Review Process
-
-
 
 ## JetBrains IntelliJ/PHPStorm/IDEA
 
@@ -24,9 +23,7 @@ The .idea folder includes project, workspace and settings files.
 
 ## Atom
 
-The .idea folder includes project, workspace and settings files.
-
-## Eclipse
+The .atom folder includes project, workspace and settings files.
 
 ## VSCode
 
@@ -39,7 +36,5 @@ The .vs folder includes project, workspace and settings files.
 ## Sublime Text
 
 Sublime project and workspace settings files are included
-
-## Netbeans
 
 DONE! Happy coding! :smiley:
