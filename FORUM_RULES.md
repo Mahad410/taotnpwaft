@@ -6,7 +6,7 @@ By joining and using this community, you agree that you have read and will follo
 
 Questions should be directed to our staff.
 
-Please take a moment to acquaint yourself with these important guidelines. If you have questions, contact an The Art of Tech: Not Playing witih a full Tech staff member, moderator or administrator.
+Please take a moment to acquaint yourself with these important guidelines. If you have questions, contact an The Art of Tech: Not Playing with a full Tech staff member, moderator or administrator.
 
 In order to preserve a climate that encourages both civil and fruitful dialogue, we reserve the right to suspend or terminate membership in this community for anyone who violate these rules.
 
@@ -14,7 +14,7 @@ In order to preserve a climate that encourages both civil and fruitful dialogue,
 
 Don't challenge or attack others. The discussions and comments are meant to stimulate conversation not to create contention. Let others have their say, just as you may.
 
-Don't post commercial messages on any discussion list, resource library entry, or other area where others might see it. Contact people directly with product and service information if you believe itwould help them.
+Don't post commercial messages on any discussion list, resource library entry, or other area where others might see it. Contact people directly with product and service information if you believe it would help them.
 
 Use caution when discussing products. Information posted on the lists and in the libraries is available for all to see, and comments are subject to libel, slander, and antitrust laws.
 
@@ -32,7 +32,7 @@ No posting of any personal or corporate information. Please keep this informatio
 
 All posts that include commercial ads, porn, violence, gambling will be deleted and the user will be banned permanently.
 
-No brand bashing. We all have our favourite brands, and often brands we have a dislike/distain for. But just because someone shares a different opinion doesn’t make them wrong. So no brand bashing please No Android Vs Apple, etc. etc.
+No brand bashing. We all have our favorite brands, and often brands we have a dislike/disdain for. But just because someone shares a different opinion doesn’t make them wrong. So no brand bashing please No Android Vs Apple, etc. etc.
 We will NOT tolerate people being berated / mocked for their choice of hardware and/or software. Please bear this in mind when responding to threads. Anyone being derogatory / insulting will be removed from the group
 
 No talk of Warez or other illegal activity
@@ -66,7 +66,7 @@ We are a group of professionals, techs, etc and we will not tolerate people aski
 
 * Failure to follow the direct instructions from Admins / Moderators to edit/update your post with correct / relevant information, will result in your [ post / comment ] to be removed, in addition to this you may be muted / blocked (Case Depending).
 
-* When posting to request help regaurding an Operating System, you MUST include
+* When posting to request help regarding an Operating System, you MUST include
 a) Distribution Name (OS Name)
 b) Distribution Version (OS Version)
 
@@ -83,13 +83,13 @@ Failures to create posts like this may result in your post being removed, includ
 
 We encourage members to report inappropriate posts
 
-The rules listed above are not all the rules as that list would go all the way to the North Pole. So if a rule isnt listed but a mod asks you to stop what you are doing, you need to cease what you are doing.
+The rules listed above are not all the rules as that list would go all the way to the North Pole. So if a rule isn't listed but a mod asks you to stop what you are doing, you need to cease what you are doing.
 
 This tech group was created due to popular demand for a positive and productive place to learn, discuss, share, communicate, educate, help, support, grow all of tech, whether it be IT, Networking or any other tech field. That's what this forum is all about! POSITIVE solutions and respect for other members is the key to getting along in this tech community group. Hope you all contribute and enjoy the ambiance! Check out all the important topics & great discussions so far - click recent posts at top of forum. Set up a good signature and introduce yourself!
 
 The Art of Tech: Not Playing with a full Tech Community Attitude
 
-The Art of Tech: Not Playing with a full Tech is a professional community based on the Contributor Convenant. We also follow the GNU GPL and MIT licensing rules where applicable. We would like to be a role model community to the rest of the Social Media tech commnuities online.
+The Art of Tech: Not Playing with a full Tech is a professional community based on the Contributor Covenant. We also follow the GNU GPL and MIT licensing rules where applicable. We would like to be a role model community to the rest of the Social Media tech communities online.
 
 Our purpose is to share, help and support each other!
 
@@ -102,7 +102,7 @@ Please display a positive, friendly attitude and be respectful of other's opinio
 Always try to "give" back to our community. For each time you find help or answers, try to help someone else out in return. You may find that what goes around comes around...
 Give people a little time to respond to your requests and posts. People are busy and it may take a little time for people to notice and respond to your request. Please be patient.
 
-We are not biased in SELF-PROMOTION, except if the promotion is relevant and will help direct users to a suitable solution. No link drops or link building in posts. Please do not link to your personal website in posts or say check out my site or contact me - in any way wihtout first contacting our group staff. If you have a Tech or IT blog, YouTube channel, etc. You will be allowed to post under the following circumstances. Ifyou wish for your group, business, site, blog, tech community, YouTube channel to be promoted by our group please contact us. Business owners or consultants that need us to help with tech support or troubleshooting should post relevant site links or link to Google My Business or Google Maps so we can investigate. Throughout our group, promotion of members social media groups, YouTube channels, podcasts or businesses are permitted on the Wednesday of each week. Posts of this nature outside of this window will be deleted. We would like to only support those members of the community who disseminate factual and technically correct information.
+We are not biased in SELF-PROMOTION, except if the promotion is relevant and will help direct users to a suitable solution. No link drops or link building in posts. Please do not link to your personal website in posts or say check out my site or contact me - in any way without first contacting our group staff. If you have a Tech or IT blog, YouTube channel, etc. You will be allowed to post under the following circumstances. If you wish for your group, business, site, blog, tech community, YouTube channel to be promoted by our group please contact us. Business owners or consultants that need us to help with tech support or troubleshooting should post relevant site links or link to Google My Business or Google Maps so we can investigate. Throughout our group, promotion of members social media groups, YouTube channels, podcasts or businesses are permitted on the Wednesday of each week. Posts of this nature outside of this window will be deleted. We would like to only support those members of the community who disseminate factual and technically correct information.
 
 Spam will not be tolerated, and posts removed and repeat offenders will be banned.
 
@@ -110,19 +110,19 @@ Spam will not be tolerated, and posts removed and repeat offenders will be banne
 
 Members are responsible for what they post. The Art of Tech forum cannot be held liable for the content of posted messages.
 
-Our staff rerverves the right to remove any blatantly poor advice but any information presented by members is "follow at your own risk". We are not responsible for any advice you follow, programming code or commands you run by members in this group.
+Our staff reserves the right to remove any blatantly poor advice but any information presented by members is "follow at your own risk". We are not responsible for any advice you follow, programming code or commands you run by members in this group.
 
 No politics, discussion of sex, race or religion.
 Everyone is entitled to their opinion on these subjects but this is not the place to discuss them. Posts will be removed and repeat offenders will be banned.
 Thank you so much for reviewing and heeding these guidelines!
-<hr>
+
 Other than that enjoy the group and please help us all to learn, discuss, share, communicate, educate, help, support, grow and make us a model group for the rest of the tech community.
 
 The Art of Tech: Not Playing with a full Tech Contributor Covenant
 
-The Art of Tech: Not Playing with a full Tech community group participates in the "Contributor Covenant" which inherin is described below.
+The Art of Tech: Not Playing with a full Tech community group participates in the "Contributor Covenant" which is described below.
 
-The groups founder, creator, its Administrators, Moderators, @gbowne1 and The Art of Tech community are committed to creating an open and inviting community. Trolls are not welcome here. Everyone participating is expected to adhere to this code of conduct. It is adapted from the Contributor Covenant Code of Conduct.
+The groups' founder, creator, its Administrators, Moderators, @gbowne1 and The Art of Tech community are committed to creating an open and inviting community. Trolls are not welcome here. Everyone participating is expected to adhere to this code of conduct. It is adapted from the Contributor Covenant Code of Conduct.
 
 Pledge In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, education, sociology-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
@@ -133,7 +133,7 @@ Our Responsibilities Community maintainers are responsible for clarifying the st
 Scope This Code of Conduct applies both within private and public spaces when an individual is representing the community. Examples of representing the community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by community maintainers.
 
 Enforcement Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by tagging the Moderators or by sending a private message to Admin. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The community team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately. Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project’s leadership.
-<hr>
+
 How do we use your group metrics?
 
-Simple. Participate in the polls onour community on Facebook Group, Discord, Reddit, YouTube, Forum and our community will grow. This will help us know your support for your growing interests. This will also help us judge what our members use so we can provide the level of suppot. This will help us not only with demographics but it will also help keep discussion relevant.
+Simple. Participate in the polls on our community on Facebook Group, Discord, Reddit, YouTube, Forum and our community will grow. This will help us know your support for your growing interests. This will also help us judge what our members use so we can provide the level of support. This will help us not only with demographics but it will also help keep discussion relevant.
