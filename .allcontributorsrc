@@ -1,0 +1,33 @@
+{
+    "files": [
+        "README.md"
+    ],
+    "imageSize": 100,
+    "commit": false,
+    "contributors": [
+        {
+            "login": "",
+            "name": "",
+            "avatar_url": "https://avatars2.githubusercontent.com/u/458946?v=4",
+            "profile": "",
+            "contributions": [
+                "code",
+                "doc",
+                "bug",
+                "projectManagement",
+                "infra",
+                "test",
+                "ideas",
+                "design",
+                "content",
+                "ideas"
+            ]
+        }
+    ],
+    "contributorsPerLine": 7,
+    "projectName": "taotnpwaft",
+    "projectOwner": "gbowne1",
+    "repoType": "github",
+    "repoHost": "https://github.com",
+    "skipCi": true
+}

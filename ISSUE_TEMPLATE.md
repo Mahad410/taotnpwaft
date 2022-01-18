@@ -1,4 +1,4 @@
-## Keep this file
+# Keep this file
 
 * This is the `blank-issue-template' used in the Github workflow used when you click on the Issues tab and loads when you click on the link next to the text:
 

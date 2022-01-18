@@ -106,6 +106,27 @@
     position: fixed;
 }
 
+.TAOTContactInput [type=text], select, textarea {
+    width: fit-content 100%;
+    padding: 12px;
+    border: 1px solid;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+.TAOTContactInput [type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+}
+
 #main {
     transition: all .5s ease-out;
     position: relative;
@@ -121,6 +142,8 @@
         font-size: 18px;
     }
 }
+
+
 
 /* Generic styling */
 * {

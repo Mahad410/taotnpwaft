@@ -10,10 +10,14 @@ This repository also contains editor configuration/settings and workspace files 
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-bot-orange.svg?style=flat-square)](#contributors-)
 
+<img src="https://img.shields.io/github/discussions/gbowne1/taotnpwaft?style=for-the-badge">
+<img src="https://img.shields.io/github/license/gbowne1/taotnpwaft?style=for-the-badge">
+
 ## Tech Stack 🗃
 
  Main Repository
- <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white"> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
+ <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white">
+ <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
 
  Website:
  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
@@ -33,17 +37,21 @@ This repository also contains editor configuration/settings and workspace files 
 
  <img src="https://img.shields.io/discord/612575111718895616" alt="discord">
  <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">
- <img src="https://aleen42.github.io/badges/src/reddit.svg">
+ <img src="https://img.shields.io/reddit/subreddit-subscribers/TheArtOfTech?style=for-the-badge">
  <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">
  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
 
 ## How to contribute?
 
-Get started with the contribution guidelines [here](https://github.com/gbowne1/taotnpwaft/blob/main/CONTRIBUTING.md).
+Get started with the contribution guidelines [here](https://github.com/gbowne1/taotnpwaft/blob/master/CONTRIBUTING.md).
 
 We are actively looking for active contributors and participation to this group and its meta.  If you would like to see the things we need help with, please see TODO.md and also the [Issues] tab and the Project board on this repository as well as the one at [Wesbsite Repository](https://www.github.com/gbowne1/taotnpwaft_site/)
 
 We would like to encourage you to participate in making this one of the best social media based tech groups there is.
+
+## Our Content
+
+We will be producing beginner and intermediate type content as well as reviews of hardware and software as well as host live streams.
 
 ## How to join?
 
@@ -55,7 +63,11 @@ Everyone.  From hobbyists, homelabbers to professionals.
 
 ## Questions?
 
-Ask a question in our Discord.
+Ask a question in our [Discord](https://discord.gg/KydrUs4).
+
+## Contributing to our community
+
+How can you contribute to our community? If you would like to contribute to our community you can work on any of the issues in the [Issues Tab] in this repository. You can also contribute blog articles to our new website and submit videos for review and publishing to our YouTube channel.  This community relies on the valued participation of it's members.
 
 ## Contributors
 
