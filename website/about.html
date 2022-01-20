@@ -63,6 +63,7 @@
     <script src="Libs/Toastr/build/toastr.min.js"></script>
     <script src="Scripts/TAOTGeneral.js"></script>
     <script src="Scripts/TAOTGrid.js"></script>
+    <link rel="stylesheet" type="text/css" href="TAOTtheme.css">
 </head>
 
 <body class="dark-theme || light-theme">
@@ -98,6 +99,7 @@
 
                 <button type="button" id="cmdRegister" class="btn btn-primary" data-bs-toggle="modal"
                     data-bs-target="#FormRegisterModal" style="display:inline-block">Register</button>
+                    <input type="checkbox" id="toggle">
                 <button type="button" id="cmdLogin" class="btn btn-primary" data-bs-toggle="modal"
                     data-bs-target="#FormLoginModal" style="display:inline-block">
                     Login
@@ -306,6 +308,11 @@
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'UA-');</script>
+        <script type="text/javascript">
+            document.getElementById("toggle").addEventListener("click", function(){
+            document.getElementsByTagName('body')[0].classList.toggle("dark-theme");
+          });
+          </script>
 </body>
 
 </html>
