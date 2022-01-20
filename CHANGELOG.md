@@ -1,11 +1,11 @@
-# Changlog
+# Changelog
 
 | Syntax      | Description |
 | ----------- | ----------- |
 | Header      | Title       |
 | Paragraph   | Text        |
 
-This markdown file ideally should be for listing all noteable changes to our major documentation.
+This markdown file ideally should be for listing all notable changes to our major documentation.
 
 All notable changes to this project will be documented in this file.
 

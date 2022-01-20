@@ -8,6 +8,8 @@ The Art of Tech: Not Playing with a Full Tech was created originally as a Facebo
 
 This repository also contains editor configuration/settings and workspace files for Sublime Text, Visual Studio, VSCode to aid staff in creating group content and other meta files and documentation.
 
+This repository could possibly become a model for other similar social media technology groups who wish to get their meta in order to start.
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-bot-orange.svg?style=flat-square)](#contributors-)
 
 <img src="https://img.shields.io/github/discussions/gbowne1/taotnpwaft?style=for-the-badge">
