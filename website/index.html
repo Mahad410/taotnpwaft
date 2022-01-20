@@ -36,6 +36,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto|Open Sans|Lato|Monsterrat" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" type="text/css" href="styles/TAOT.css">
+    <link rel="stylesheet" type="text/css" href="TAOTtheme.css">
 </head>
 
 <body class="dark-theme || light-theme">
@@ -71,6 +72,7 @@
 
                 <button type="button" id="cmdRegister" class="btn btn-primary" data-bs-toggle="modal"
                     data-bs-target="#FormRegisterModal" style="display:inline-block">Register</button>
+                    <input type="checkbox" id="toggle">
                 <button type="button" id="cmdLogin" class="btn btn-primary" data-bs-toggle="modal"
                     data-bs-target="#FormLoginModal" style="display:inline-block">
                     Login
@@ -309,6 +311,11 @@
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'UA-');</script>
+        <script type="text/javascript">
+            document.getElementById("toggle").addEventListener("click", function(){
+            document.getElementsByTagName('body')[0].classList.toggle("dark-theme");
+          });
+          </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript"
         src="//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js"></script>
