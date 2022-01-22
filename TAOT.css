@@ -292,7 +292,6 @@ body {
 }
 
 .container-fluid {
-    border: 1px solid red;
     border-radius: 8px;
     padding: 50px;
     width: 80%;
