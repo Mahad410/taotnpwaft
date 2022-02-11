@@ -12,7 +12,7 @@ Pre-Login
 File: register.php / register.html
   USA: Name, Address, Address 2, County, City/Town, State, ZIP+4, Country [US, USA, United States] Phone, email, website, social links&icons
 
-  Place for user to list / input their skillsets: i.e [Web] [IT] [Hobbyist] [Cloud] [Azure] [Kubernetes] [DevOps]
+  Place for user to list / input their skill sets: i.e [Web] [IT] [Hobbyist] [Cloud] [Azure] [Kubernetes] [DevOps]
 
   Elsewhere:  Name, Address, Address 2, County, City/Town, State, Post Code, Country, Phone, email, website, social links&icons,
 
@@ -28,7 +28,7 @@ Verification of email, password and username
 Forgot password // password reset request
 
 [Invalid username/password popup // red warning message]
-{Login Succesful prompt/popup?}
+{Login Successful prompt/popup?}
 [RememberMe]
 "Not Logged in? Create an account"
 "Already have an account? [Login Link]"
@@ -75,7 +75,7 @@ Add 404 page
 
 Switcher to turn on/off Light / Dark Mode
 
-`Logged in` gives priveledges to user:
+`Logged in` gives privileges to user:
 Users set as an admin will be able to:
 Users set as a moderator will be able to:
 [] Add other users/members as 'friends' // Friend Request

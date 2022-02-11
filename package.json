@@ -35,7 +35,7 @@
     "settings": {}
   },
   "scripts": {
-    "start": "",
+    "start": "nodemon ./bin/www",
     "stop": "",
     "serve": "nodemon ./server.js localhost 4000",
     "test": "mocha index.test.js",

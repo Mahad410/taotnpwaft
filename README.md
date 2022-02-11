@@ -10,16 +10,22 @@ This repository also contains editor configuration/settings and workspace files 
 
 This repository could possibly become a model for other similar social media technology groups who wish to get their meta in order to start.
 
+Note: This repository is not an app.  This is a monorepo used to help the group start working on projects (i.e our website) and for storing group metadata & documentation.
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-bot-orange.svg?style=flat-square)](#contributors-)
 
 <img src="https://img.shields.io/github/discussions/gbowne1/taotnpwaft?style=for-the-badge">
 <img src="https://img.shields.io/github/license/gbowne1/taotnpwaft?style=for-the-badge">
+<img src="https://img.shields.io/github/contributors/gbowne1/taotnpwaft?style=for-the-badge">
+<img src="https://img.shields.io/github/stars/gbowne1/taotnpwaft?style=for-the-badge">
+<img src="https://img.shields.io/github/issues/gbowne1/taotnpwaft?style=for-the-badge">
 
 ## Tech Stack 🗃
 
  Main Repository
  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white">
  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
+ <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
 
  Website:
  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
@@ -32,16 +38,25 @@ This repository could possibly become a model for other similar social media tec
  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
 
+ Frameworks & Libraries
+ <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB">
+ <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
+
  IDE: <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white">
  <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white">
+ <img src="https://img.shields.io/badge/Atom-%2366595C.svg?style=for-the-badge&logo=atom&logoColor=white">
+ <img src="https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white">
+ <img src="https://img.shields.io/badge/phpstorm-143?style=for-the-badge&logo=phpstorm&logoColor=black&color=black&labelColor=darkorchid">
+ <img src="https://img.shields.io/badge/sublime_text-%23575757.svg?style=for-the-badge&logo=sublime-text&logoColor=important">
 
 ## Our Platforms
 
- <img src="https://img.shields.io/discord/612575111718895616" alt="discord">
+ <img src="https://img.shields.io/discord/687810726177406981?style=for-the-badge">
  <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">
  <img src="https://img.shields.io/reddit/subreddit-subscribers/TheArtOfTech?style=for-the-badge">
  <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">
  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
+ <img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white">
 
 ## How to contribute?
 
@@ -66,6 +81,12 @@ Everyone.  From hobbyists, homelabbers to professionals.
 ## Questions?
 
 Ask a question in our [Discord](https://discord.gg/KydrUs4).
+
+## Support
+
+How can you support us?
+
+![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)
 
 ## Contributing to our community
 

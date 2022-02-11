@@ -34,7 +34,5 @@
   "[plaintext]": {
     "files.insertFinalNewline": false
   },
-  "terminal.integrated.profile.linux": ""
-  }
-},
-
+  "livePreview.defaultPreviewPath": "/home/gbowne1/Documents/updatestohtml.html"
+}
