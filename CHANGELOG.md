@@ -4,14 +4,9 @@
 | ----------- | ----------- |
 | Header      | Title       |
 | Paragraph   | Text        |
+| Button      | Added a button that should ideally direct to the required home page |
 
-This markdown file ideally should be for listing all notable changes to our major documentation.
-
-All notable changes to this project will be documented in this file.
+There is no big change since the requirement was to finish the 404 page and it is all about HTML and CSS.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-
-## Added
-
--- Files for Initial Commit
