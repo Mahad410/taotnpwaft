@@ -4,9 +4,9 @@
  > ------------------------------------------------------------
  */
 
- $(document).ready(function() {
+$(document).ready(function () {
   $('body').width(window.innerWidth).height(window.innerHeight);
-  $('#abutton').on('click', albert);
+  $('#abutton').on('click');
 
   function taot() {
     $('h1').html('<span>Oh</span> <span>gosh</span><span>,</span> <span>it</span> <span>crashed!</span><span>"!"+!</span>');

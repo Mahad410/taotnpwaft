@@ -143,7 +143,8 @@ footer {
         height: auto;
     }
 }
-#toggle{
+
+#toggle {
     -webkit-appearance: none;
     appearance: none;
     height: 30px;
@@ -155,7 +156,8 @@ footer {
     outline: none;
     cursor: pointer;
 }
-#toggle:after{
+
+#toggle:after {
     content: "";
     position: absolute;
     height: 20px;
@@ -167,14 +169,16 @@ footer {
 }
 
 
-.dark-theme{
+.dark-theme {
     background-color: #15181f;
     color: #e5e5e5;
 }
-.dark-theme #toggle{
+
+.dark-theme #toggle {
     background-color: #ffffff;
 }
-.dark-theme #toggle:after{
+
+.dark-theme #toggle:after {
     background-color: transparent;
     box-shadow: 10px 10px #15181f;
     top: -6px;
