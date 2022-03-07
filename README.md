@@ -14,11 +14,13 @@ Note: This repository is not an app.  This is a monorepo used to help the group 
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-bot-orange.svg?style=flat-square)](#contributors-)
 
+<div>
 <img src="https://img.shields.io/github/discussions/gbowne1/taotnpwaft?style=for-the-badge">
 <img src="https://img.shields.io/github/license/gbowne1/taotnpwaft?style=for-the-badge">
 <img src="https://img.shields.io/github/contributors/gbowne1/taotnpwaft?style=for-the-badge">
 <img src="https://img.shields.io/github/stars/gbowne1/taotnpwaft?style=for-the-badge">
 <img src="https://img.shields.io/github/issues/gbowne1/taotnpwaft?style=for-the-badge">
+</div>
 
 ## Tech Stack 🗃
 
@@ -51,12 +53,10 @@ Note: This repository is not an app.  This is a monorepo used to help the group 
 
 ## Our Platforms
 
- <img src="https://img.shields.io/discord/687810726177406981?style=for-the-badge">
- <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">
- <img src="https://img.shields.io/reddit/subreddit-subscribers/TheArtOfTech?style=for-the-badge">
- <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">
- <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
- <img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white">
+ <a href="https://discord.com/invite/KydrUs4"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
+ <a href="https://www.reddit.com/r/TheArtofTech/"><img src="https://img.shields.io/reddit/subreddit-subscribers/TheArtOfTech?style=for-the-badge"></a>
+ <a href="https://www.facebook.com/groups/918445681921895"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"></a>
+ <a href="https://youtube.com/channel/UC2hE-HmchxgjsmfRcJ3S25w"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
 
 ## How to contribute?
 
