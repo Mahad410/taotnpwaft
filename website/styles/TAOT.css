@@ -15,6 +15,15 @@
     }
 }
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 
 /* @ font-face needs media query would rather embed these 4 google fonts: Roboto, Monsterrat, Lato, Open Sans*/
 
@@ -124,8 +133,6 @@
     cursor: pointer;
 }
 
-
-}
 
 #main {
     transition: all .5s ease-out;
@@ -273,10 +280,36 @@ input[type="submit"] {
 
 .ft-legal-list li {
     margin: 0.125rem 0.625rem;
-    white-space: nowrap;
+    white-space: pre-line;
 }
 
 /* one before the last child */
 .ft-legal-list li:nth-last-child(2) {
     flex: 1;
+}
+
+/* Social Media Icons */
+.TAOT-facebook{
+    color: #1877f2;;
+}
+
+.TAOT-github{
+    color: #171515;
+}
+
+.TAOT-youtube{
+   color: #ff0000;
+}
+
+.TAOT-discord{
+    color: #5865f2;
+}
+
+
+.TAOT-reddit{
+    color: #ff4500;
+}
+
+.ft-social-list  li  a :hover{
+    color: #fff;
 }
