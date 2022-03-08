@@ -1,9 +1,7 @@
-These files are moslty Github related repository files, especially any of the .md (markdown) files and YAML .yml files especially in .github/
+These files are mostly Github related repository files, especially any of the .md (markdown) files and YAML .yml files especially in .github/
 
 The /website folder is for permanent storage of the group website
 
 I would like to look into how the OpenGovernment does their documentation process for their group.
 
-Aparently also the /docs/ folder is used for Jeckyll sites/pages.
-
-
+Apparently also the /docs/ folder is used for Jeckyll sites/pages.
