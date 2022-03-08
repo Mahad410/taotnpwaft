@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap') screen and (orientation:landscape);
-;
 
 @media only screen and (min-width: 980px) {
     @font-face {
@@ -122,9 +121,6 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
-}
-
-
 }
 
 #main {

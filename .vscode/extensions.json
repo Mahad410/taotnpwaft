@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "hediet.vscode-drawio",
+    "ms-azuretools.vscode-docker",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "ritwickdey.LiveServer",
+    "EditorConfig.EditorConfig"
+  ]
+}
