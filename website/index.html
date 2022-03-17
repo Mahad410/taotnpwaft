@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Art of Tech: Not Playing with a Full Tech</title>
     <meta name="description" content="The Art of Tech: Not Playing with a full tech is a social media tech group.">
@@ -14,12 +14,23 @@
     <meta name="author" content="Gregory K. Bowne">
     <link rel="manifest" href="manifest.json">
     <link rel="manifest" href="manifest.webmanifest">
+    <meta name="alexaVerifyID" content="">
+    <meta name="p:domain_verify" content="">
+    <meta name="apple-mobile-web-app-title" content="TAOTNPWAFT">
     <meta name="theme-color" content="#7d7f7c">
+    <meta name="msapplication-config" content="none" />
+    <meta name="google-site-verification" content="sitekeyhere">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="icon" href="https://taotnpwaft.org/favicon.ico" type="image/ico">
+    <link rel="apple-touch-icon" href="imagelinkhere">
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <meta name="msvalidate.01" content="bingvalidationkeyhere">
+    <meta name="copyright" content="Copyright 2022 The Art of Tech:Not Playing with a Full Tech,LLC.">
     <link rel="canonical" href="https://taotnpwaft.org/">
+    <link rel="preconnect" href="https://google-analytics.com" crossorigin="">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="http://www.google.com">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
@@ -27,6 +38,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="alternate" type="application/rss+xml" title="" href="/rss.xml">
     <meta name="google-site-verification" content="">
+    <meta name="google" value="notranslate">
+    <meta name="application-name" content="">
     <link rel="preconnect dns-prefetch" href="https://www.google-analytics.com">
     <link rel="sitemap" type="application/xml" href="/sitemap.xml">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
@@ -35,6 +48,8 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Open Sans|Lato|Monsterrat" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet"
+        href="//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/css/bootstrapValidator.min.css" />
     <link rel="stylesheet" type="text/css" href="styles/TAOT.css">
     <link rel="stylesheet" type="text/css" href="TAOTtheme.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js"
@@ -214,11 +229,16 @@
         <!-- Footer social -->
         <section class="ft-social">
             <ul class="ft-social-list">
-                <li><a class="TAOT-facebook" href="https://www.facebook.com/groups/918445681921895" target="_blank"><i class="fab fa-facebook"></i></a></li>
-                <li><a class="TAOT-github" href="https://github.com/gbowne1/taotnpwaft/" target="_blank"><i class="fab fa-github"></i></a></li>
-                <li><a class="TAOT-youtube" href="https://www.youtube.com/channel/UC2hE-HmchxgjsmfRcJ3S25w" target="_blank"><i class="fab fa-youtube"></i></a></li>
-                <li><a class="TAOT-discord" href="https://discord.gg/KydrUs4" target="_blank"><i class="fab fa-discord"></i></a></li>
-                <li><a class="TAOT-reddit" href="https://www.reddit.com/r/TheArtofTech/" target="_blank"><i class="fab fa-reddit"></i></a></li>
+                <li><a class="TAOT-facebook" href="https://www.facebook.com/groups/918445681921895" target="_blank"><i
+                            class="fab fa-facebook"></i></a></li>
+                <li><a class="TAOT-github" href="https://github.com/gbowne1/taotnpwaft/" target="_blank"><i
+                            class="fab fa-github"></i></a></li>
+                <li><a class="TAOT-youtube" href="https://www.youtube.com/channel/UC2hE-HmchxgjsmfRcJ3S25w"
+                        target="_blank"><i class="fab fa-youtube"></i></a></li>
+                <li><a class="TAOT-discord" href="https://discord.gg/KydrUs4" target="_blank"><i
+                            class="fab fa-discord"></i></a></li>
+                <li><a class="TAOT-reddit" href="https://www.reddit.com/r/TheArtofTech/" target="_blank"><i
+                            class="fab fa-reddit"></i></a></li>
             </ul>
         </section>
 
@@ -322,28 +342,39 @@
         src="//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
     <script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/linkid.js"></script>
-    <script async="" src="https://www.google-analytics.com/analytics.js"></script>
     <script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
-        type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript">
+    </script>
+    <script src="//bat.bing.com/bat.js" async=""></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
     <script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script>
     <script type="text/javascript" async="" src="https://www.google.com/pagead/conversion_async.js"></script>
-    <script async="" src="//www.google-analytics.com/analytics.js"></script>
-    <script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/linkid.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.2/umd/popper.min.js"
         integrity="sha512-aDciVjp+txtxTJWsp8aRwttA0vR2sJMk/73ZT7ExuEHv7I5E6iyyobpFOlEFkq59mWW8ToYGuVZFnwhwIUisKA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id="
+        (keyhere)"=dataLayer&cx=c"></script>
+    <script type="text/javascript" async="" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
     <script async="" src="https://www.googletagmanager.com/gtm.js?id="></script>
     <script src="https://partner.googleadservices.com/gampad/cookie.js?domain="></script>
-    <script src="https://www.googleoptimize.com/optimize.js?id="></script>
+    <script src="https://www.googleoptimize.com/optimize.js?id=(keyhere)"></script>
+    <script type="text/javascript">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', '');
+    </script>
+    <script>window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }, ga.l = +new Date, ga("create", "", "auto")</script>
     <script src="Libs/Bootstrap/js/bootstrap.js"></script>
     <script src="Libs/JQWidgets/jqwidgets/jqx-all.js"></script>
     <script src="Libs/Toastr/build/toastr.min.js"></script>
     <script src="Scripts/TAOTGeneral.js"></script>
     <script src="Scripts/TAOTGrid.js"></script>
+
 </body>
 
 </html>

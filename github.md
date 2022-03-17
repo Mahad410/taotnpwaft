@@ -1,17 +1,25 @@
 #This is a style guide for github!
 @
+This is me trying to figure out what characters do what in Github version of Markdown.
 
-# This Line creates a ____  (also # is a top level heading so places a underline/line break under it)
+# This Line creates a __ (also # is a top level heading so places a underline/line break under it)
+two +next to each other creates an underline+
 
+++
+^^
+$$
 $
 %
+%%
 ^
+^^
 &
+&&
 
 &
 This is some text
 &
-
+(())
 **
 ((
 )
@@ -142,3 +150,21 @@ Three - are Horiz rule
 
 
 ``` I am a piece of code ```
+
+''
+
+sa,,
+
+;;
+
+""
+
+++
+
+!!
+
+!
+
+??
+
+?

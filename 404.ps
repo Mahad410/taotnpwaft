@@ -1,0 +1,6 @@
+import-module WebAdministration
+et-WebConfigurationProperty -PSPath IIS:\Sites\YOUR_SITE_NAME -Filter "/system.webServer/httpErrors/error[@statusCode='404']" -Name "prefixLanguageFilePath" -Value ""
+Set-WebConfigurationProperty -PSPath IIS:\Sites\YOUR_SITE_NAME -Filter "/system.webServer/httpErrors/error[@statusCode='404']" -Name "path" -Value "/"
+Set-WebConfigurationProperty -PSPath IIS:\Sites\YOUR_SITE_NAME -Filter "/system.webServer/httpErrors/error[@statusCode='404']" -Name "ResponseMode" -Value "ExecuteURL"
+Set-Location IIS:\Sites\MySite
+add-WebConfiguration -Filter /System.WebServer/HttpErrors -Value @{StatusCode=401;PrefixLanguageFilePath="$Null";  Path="~/Content/ErrorMessages/401.html"; ResponseMode="ExecuteURL"}

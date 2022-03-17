@@ -3,9 +3,8 @@
 @media only screen and (min-width: 980px) {
     @font-face {
         font-family: "Uchen-Regular";
-        src: url("/website/Fonts/Uchen-Regular.ttf") format('truetypef');
+        src: url('website/Fonts/Uchen-Regular.ttf') format('truetypef');
         font-style: normal;
-        font-variant: normal;
         font-weight: normal;
     }
 
@@ -14,13 +13,12 @@
     }
 }
 
-html,body
-{
+html, body {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 
@@ -115,7 +113,7 @@ html,body
 }
 
 .TAOTContactInput [type=text], select, textarea {
-    width: fit-content 100%;
+    width: moz-fit-content 100%;
     padding: 12px;
     border: 1px solid;
     box-sizing: border-box;
@@ -132,10 +130,6 @@ html,body
     cursor: pointer;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 92073eec28461a33689e96b570cd5b2eee58deba
 #main {
     transition: all .5s ease-out;
     position: relative;
@@ -291,27 +285,27 @@ input[type="submit"] {
 }
 
 /* Social Media Icons */
-.TAOT-facebook{
-    color: #1877f2;;
+.TAOT-facebook {
+    color: #1877f2;
 }
 
-.TAOT-github{
+.TAOT-github {
     color: #171515;
 }
 
-.TAOT-youtube{
-   color: #ff0000;
+.TAOT-youtube {
+    color: #ff0000;
 }
 
-.TAOT-discord{
+.TAOT-discord {
     color: #5865f2;
 }
 
 
-.TAOT-reddit{
+.TAOT-reddit {
     color: #ff4500;
 }
 
-.ft-social-list  li  a :hover{
+.ft-social-list li a :hover {
     color: #fff;
 }

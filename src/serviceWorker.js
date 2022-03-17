@@ -1,3 +1,14 @@
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js', { scope: './src/serviceWorker.js' })
+    .then((reg) => {
+      // registration worked
+      console.log('Service Worker Registered. Scope is ' + reg.scope);
+    }).catch((error) => {
+      console.log('Registration failed with ' + error);
+    });
+})
+
+
 self.addEventListener('install', event => console.log('ServiceWorker installed'));
 self.addEventListener('notificationclick', event => {
   event.waitUntil(self.clients.openWindow('/'));
