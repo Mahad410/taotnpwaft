@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap') screen and (orientation:landscape);
 
-@media only screen and (min-width: 980px) {
-    @font-face {
-        font-family: "Uchen-Regular";
+/*@font-face {
+    font-family: "Uchen-Regular";
         src: url('website/Fonts/Uchen-Regular.ttf') format('truetypef');
         font-style: normal;
         font-weight: normal;
     }
-
+    
     p {
         font-family: "Uchen-Regular";
     }
-}
+}*/
 
 html, body {
     width: 100%;
@@ -145,8 +144,6 @@ html, body {
         font-size: 18px;
     }
 }
-
-
 
 /* Generic styling */
 * {
