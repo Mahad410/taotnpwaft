@@ -178,7 +178,9 @@
     padding: 20px
 }
 
-.online, .offline, .me {
+.online,
+.offline,
+.me {
     margin-right: 2px;
     font-size: 8px;
     vertical-align: middle

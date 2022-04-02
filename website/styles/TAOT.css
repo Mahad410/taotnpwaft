@@ -12,7 +12,8 @@
     }
 }*/
 
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -74,7 +75,7 @@ html, body {
 }
 
 .TAOTSideNav {
-    height: 100%;
+    height: 100vh;
     width: 0;
     position: fixed;
     z-index: 1;
@@ -111,7 +112,9 @@ html, body {
     position: fixed;
 }
 
-.TAOTContactInput [type=text], select, textarea {
+.TAOTContactInput [type=text],
+select,
+textarea {
     width: moz-fit-content 100%;
     padding: 12px;
     border: 1px solid;
@@ -129,23 +132,41 @@ html, body {
     cursor: pointer;
 }
 
-#main {
+.main {
     transition: all .5s ease-out;
     position: relative;
     left: 0;
+}
+
+aside .card {
+    background: transparent !important;
+    transition: .5s;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: .55rem;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+}
+
+span .ham {
+    color: #fff !important;
+    border: 1px solid red;
 }
 
 @media screen and (max-height: 450px) {
     .TAOTSideNav {
         padding-top: 15px;
     }
-
     .TAOTSideNav a {
         font-size: 18px;
     }
 }
 
+
 /* Generic styling */
+
 * {
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
@@ -180,7 +201,9 @@ a:hover {
     padding-bottom: 0.625rem;
 }
 
+
 /* Sticks footer to bottom */
+
 body {
     display: flex;
     min-height: 100vh;
@@ -191,7 +214,9 @@ body {
     flex: 1;
 }
 
+
 /* Footer main */
+
 .ft-main {
     padding: 1.25rem 1.875rem;
     display: flex;
@@ -199,8 +224,8 @@ body {
 }
 
 @media only screen and (min-width: 29.8125rem
+/* 477px */
 
-    /* 477px */
 ) {
     .ft-main {
         justify-content: space-evenly;
@@ -208,8 +233,8 @@ body {
 }
 
 @media only screen and (min-width: 77.5rem
+/* 1240px */
 
-    /* 1240px */
 ) {
     .ft-main {
         justify-content: space-evenly;
@@ -221,7 +246,9 @@ body {
     min-width: 12.5rem;
 }
 
+
 /* Footer main | Newsletter form */
+
 form {
     display: flex;
     flex-wrap: wrap;
@@ -242,7 +269,9 @@ input[type="submit"] {
     margin-top: 0.3125rem;
 }
 
+
 /* Footer social */
+
 .ft-social {
     padding: 0 1.875rem 1.25rem;
 }
@@ -259,7 +288,9 @@ input[type="submit"] {
     font-size: 1.25rem;
 }
 
+
 /* Footer legal */
+
 .ft-legal {
     padding: 0.9375rem 1.875rem;
     background-color: #333;
@@ -276,12 +307,16 @@ input[type="submit"] {
     white-space: pre-line;
 }
 
+
 /* one before the last child */
+
 .ft-legal-list li:nth-last-child(2) {
     flex: 1;
 }
 
+
 /* Social Media Icons */
+
 .TAOT-facebook {
     color: #1877f2;
 }
@@ -297,7 +332,6 @@ input[type="submit"] {
 .TAOT-discord {
     color: #5865f2;
 }
-
 
 .TAOT-reddit {
     color: #ff4500;

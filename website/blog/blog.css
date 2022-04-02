@@ -5,7 +5,7 @@
 
 .blog-header-logo {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif
-        /*rtl:Amiri, Georgia, "Times New Roman", serif*/
+    /*rtl:Amiri, Georgia, "Times New Roman", serif*/
     ;
     font-size: 2.25rem;
 }
@@ -14,9 +14,14 @@
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif
-        /*rtl:Amiri, Georgia, "Times New Roman", serif*/
+    /*rtl:Amiri, Georgia, "Times New Roman", serif*/
     ;
 }
 
@@ -52,6 +57,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: .75rem;
     padding-bottom: .75rem;
     font-size: .875rem;
+    display: inline;
 }
 
 .card-img-right {
@@ -73,7 +79,9 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+
 /* Pagination */
+
 .blog-pagination {
     margin-bottom: 4rem;
 }
@@ -82,9 +90,11 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 2rem;
 }
 
+
 /*
  * Blog posts
  */
+
 .blog-post {
     margin-bottom: 4rem;
 }
@@ -99,9 +109,11 @@ h1, h2, h3, h4, h5, h6 {
     color: #727272;
 }
 
+
 /*
  * Footer
  */
+
 .blog-footer {
     padding: 2.5rem 0;
     color: #727272;
@@ -114,31 +126,38 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0;
 }
 
+
 /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+
 .row.content {
     height: 1500px
 }
 
+
 /* Set gray background color and 100% height */
+
 .sidenav {
     background-color: #f1f1f1;
     height: 100%;
 }
 
+
 /* Set black background color, white text and some padding */
+
 footer {
     background-color: #555;
     color: white;
     padding: 15px;
 }
 
+
 /* On small screens, set height to 'auto' for sidenav and grid */
+
 @media screen and (max-width: 767px) {
     .sidenav {
         height: auto;
         padding: 15px;
     }
-
     .row.content {
         height: auto;
     }
@@ -167,7 +186,6 @@ footer {
     left: 7px;
     border-radius: 50%;
 }
-
 
 .dark-theme {
     background-color: #15181f;
