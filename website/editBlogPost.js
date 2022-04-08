@@ -51,15 +51,15 @@ app.post('/upload', (req, res) => {
 })
 
 const addImage = (imagepath, alt) => {
-  let curPos = articleFeild.selectionStart;
+  let curPos = articleField.selectionStart;
   let textToInsert = `\r![${alt}](${imagepath})\r`;
-  articleFeild.value = articleFeild.value.slice(0, curPos) + textToInsert + articleFeild.value.slice(curPos);
+  articleField.value = articleField.value.slice(0, curPos) + textToInsert + articleField.value.slice(curPos);
 }
 
 let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 publishBtn.addEventListener('click', () => {
-  if (articleFeild.value.length && blogTitleField.value.length) {
+  if (articleField.value.length && blogTitleField.value.length) {
     // generating id
     let letters = 'abcdefghijklmnopqrstuvwxyz';
     let blogTitle = blogTitleField.value.split(" ").join("-");
@@ -75,7 +75,7 @@ publishBtn.addEventListener('click', () => {
     //access firestore with db variable;
     db.collection("blogs").doc(docName).set({
       title: blogTitleField.value,
-      article: articleFeild.value,
+      article: articleField.value,
       bannerImage: bannerPath,
       publishedAt: `${date.getDate()} ${months[date.getMonth()]} ${date.getFullYear()}`
     })

@@ -115,7 +115,7 @@ body {
 .TAOTContactInput [type=text],
 select,
 textarea {
-    width: moz-fit-content 100%;
+    width: fit-content 100%;
     padding: 12px;
     border: 1px solid;
     box-sizing: border-box;

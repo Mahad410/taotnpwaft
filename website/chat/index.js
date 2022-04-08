@@ -1,10 +1,10 @@
 var lastTimeID = 0;
 
-$(document).ready(function() {
-  $('#btnSend').click( function() {
-    sendChatText();
-    $('#chatInput').val("");
-  });
+function () {
+  $( "#btnSend" ).click(function() => {
+      sendChatText();
+      $this.(#chatInput).val("");
+    });
   startChat();
 });
 
