@@ -134,18 +134,73 @@
                         <h5 class=" mb-0 text-center"><strong>Admin Panel</strong></h5>
                     </div>
 
-                    <nav aria-label="breadcrumb" style="padding: 10px">
+                    <nav aria-label="breadcrumb" class="breadcrumb" style="padding: 10px">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item" aria-current="page"><a href="#">Home</a></li>
                             <li class="breadcrumb-item active" aria-current="page"><a href="#"></a>Admin</li>
                             <li class="breadcrumb-item" aria-current="page"><a href="#"></a>User Admin</li>
-                            <li class="breadcrumb-item" aria-current="page"><a href="#"></a>Blog Admin</li>
-                            
+                            <li class="breadcrumb-item" aria-current="page"><a href="#"></a>Blog Admin</li>      
                         </ol>
                         <!-- Fix these breadcrumbs and add individual cards -->
                         <hr>
                     </nav>
                     <!-- Add user page to Breadcrumbs and add tab for user and blog admin -->
+                    <section class="panel important">
+                        <h3 style="color: black;">Welcome to your dashboard!</h3>
+                    </section>
+                        <aside>
+                            <h2 style="color: black;">Posts</h2>
+                            <p style="color:black">Data about posts here</p>
+                            <ul>
+                                <li>Published Posts</li>
+                                <li>Drafts</li>
+                                <li>Most Popular Post</li>
+                            </ul>
+                        </aside>
+                    <section class="panel important">
+                        <header class="header">
+                            <div class="content">
+                                <a href="/blog/editor.html" class="button">Post</a>
+                            </div>
+                        </header>
+                            <h2 style="color: black;">Write a post</h2>
+                            <form action="#">
+                                <div class="post" id="post"></div>
+
+                                <label for="name">Title</label>
+                                <input type="text">
+
+                                <label for="textarea">Post</label>
+                                <textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+
+                            </form>
+                            <button><i class="fas fa-comment"></i></button>
+                            <button><i class="fas fa-heart"></i></button>
+                            <button><i class="fas fa-share"></i></button>
+                            <button><i class="fas fa-thumbs-up"></i></button>
+                            <button><i class="fas fa-thumbs-down"></i></button>
+                            <button><i class="fas fa-tag"></i></button>
+                            <button><i class="fas fa-comments"></i></button>
+                            <!-- -->
+                    </section>
+                    <section class="panel">
+                        <div class="feedback">
+                        <h2>Feedback</h2>
+                        <p></p>
+                        </div>
+                        <div class="feedback error"></div>
+                    </section>
+                    <section class="panel">
+                        <table>
+                            <tr>
+                                <th>Username</th>     
+                                <th>Posts</th>
+                                <th>Comments</th>
+                                <th>
+                                </th>
+                            </tr>
+                        </table>
+                    </section>
                     <div>
                         <button type="submit" class="btn btn-lg btn-outline-primary"
                             style="display: inline; padding: 5px; margin: 5px">

@@ -1,12 +1,25 @@
-const blogTitleField = document.querySelector('title')
-const articleField = document.querySelector('article')
+const { response } = require('express')
+const { post, data } = require('jquery')
+
+const blogTitleField = document.querySelector('.title')
+const articleField = document.querySelector('.article')
+
+//blog banner
 
 const bannerImage = document.querySelector('#banner-upload')
 const banner = document.querySelector('.banner')
 let bannerPath
 
-const publishBtn = document.querySelector('.publish-btn')
+const publishBtn = document.querySelector('.publishBtn')
 const uploadInput = document.querySelector('#image-upload')
+
+bannerImage.addEventListener('change', () => {
+  uploadImage(bannerImage, 'banner')
+})
+
+uploadInput.addEventListener('change', () => {
+  uploadImage(uploadInput, 'image')
+})
 
 const uploadImage = (uploadFile, uploadType) => {
   const [file] = uploadFile.files
@@ -18,42 +31,22 @@ const uploadImage = (uploadFile, uploadType) => {
       method: 'post',
       body: formdata,
     })
-      .then(res => res.json())
-      .then(data => {
+      response.json().then(data) () => {
         if (uploadType == 'image') {
           addImage(data, file.name)
         } else {
           bannerPath = `${location.origin}/${data}`
-          banner.style.backgroundImage = `url("${bannerPath}")`
+          banner.style.backgroundImage = `url(${bannerPath})`
         }
-      })
+      });
   } else {
-    alert('upload Image only')
+    alert('Upload image only')
   }
 }
 
-const app.post('/upload', (req, res) => {
-  let file = req.files.image
-  let date = new Date()
-  // image name
-  let imagename = date.getDate() + date.getTime() + file.name
-  // image upload path
-  let path = 'public/uploads/' + imagename
-
-  // create upload
-  file.mv(path, (err, result) => {
-    if (err) {
-      throw err
-    } else {
-      // our image upload path
-      res.json(`uploads/${imagename}`)
-    }
-  })
-})
-
 const addImage = (imagepath, alt) => {
   let curPos = articleField.selectionStart
-  let textToInsert = `\r![${alt}](${imagepath})\r`
+  let textToInsert = `r![${alt}](${imagepath})\r`
   articleField.value = articleField.value.slice(0, curPos) + textToInsert + articleField.value.slice(curPos)
 }
 
@@ -61,7 +54,6 @@ let months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oc
 
 publishBtn.addEventListener('click', () => {
   if (articleField.value.length && blogTitleField.value.length) {
-    // generating id
     let letters = 'abcdefghijklmnopqrstuvwxyz'
     let blogTitle = blogTitleField.value.split(' ').join('-')
     let id = ''
@@ -70,12 +62,14 @@ publishBtn.addEventListener('click', () => {
     }
 
     // setting up docName
-    let docName = `${blogTitle}-${id}`
-    let date = new Date() // for published at info
 
-    //access firestore with db variable;
+    let docName = `${blogTitle}-${id}`
+    let date = new Date() //for published data
+
+    // db access collection
+
     db.collection('blogs')
-      .doc(docName)
+      .doc('docName')
       .set({
         title: blogTitleField.value,
         article: articleField.value,
@@ -84,9 +78,9 @@ publishBtn.addEventListener('click', () => {
       })
       .then(() => {
         location.href = `/${docName}`
-      })
-      .catch(err => {
-        console.error(err)
-      } 
-   }
-}}
+      }
+        })
+  .catch(err => {
+    console.log(err)
+  }
+}

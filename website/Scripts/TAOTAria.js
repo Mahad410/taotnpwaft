@@ -27,6 +27,8 @@ function toggleButton(element) {
       document.getElementById("large").setAttribute("aria-pressed", !pressed);
       break;
   }
+
+  // TODO
   // Change aria-pressed to the opposite state
   //   		element.setAttribute("aria-pressed", !pressed);
   // if(element.getAttribute("aria-pressed") === "false") {
