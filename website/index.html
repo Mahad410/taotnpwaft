@@ -15,6 +15,7 @@
     <link rel="manifest" href="manifest.json">
     <link rel="manifest" href="manifest.webmanifest">
     <link rel="manifest" href="/app.webmanifest" crossorigin="use-credentials">
+    <meta name="format-detection" content="telephone=no">
     <meta name="alexaVerifyID" content="">
     <meta name="p:domain_verify" content="">
     <meta name="apple-mobile-web-app-title" content="TAOTNPWAFT">
@@ -22,6 +23,7 @@
     <meta name="msapplication-config" content="none" />
     <meta name="google-site-verification" content="sitekeyhere">
     <link rel="shortcut icon" href="favicon.ico">
+    <link rel="mask-icon" href=".svg" color="#de2600">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="icon" href="https://taotnpwaft.org/favicon.ico" type="image/ico">
@@ -33,6 +35,10 @@
     <link rel="canonical" href="https://taotnpwaft.org/">
     <link rel="dns-prefetch" href="https://ajax.googleapis.com">
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://www.gstatic.com">
+    <link rel="dns-prefetch" href="https://apis.google.com">
     <link rel="preconnect" href="https://google-analytics.com" crossorigin="">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -44,6 +50,9 @@
     <link rel="alternate" title="The Art of Tech: Not Playing with a Full Tech" href="https://www.taotnpwaft.org/index.html" hreflang="en">
     <meta name="google-site-verification" content="">
     <meta name="google" value="notranslate">
+    <meta name="referrer" content="safe-url">
+    <link rel="alternate" type="application/rss+xml" title="TAOTNPWAFT - RSS Feed" href="/rss">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
     <meta name="application-name" content="">
     <link rel="preconnect dns-prefetch" href="https://www.google-analytics.com">
     <link rel="sitemap" type="application/xml" href="/sitemap.xml">
@@ -75,7 +84,7 @@
         })(window, document, 'script', 'dataLayer', 'GTM-XXXXXX');
     </script>
     <!-- End Google Tag Manager -->
-
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","url":"https://taotnpwaft.org/","potentialAction":{"@type":"SearchAction","target":"https://taotnpwaft.org/search/{search_term_string}?from=google","query-input":"required name=search_term_string"}}</script>
 </head>
 
 <body class="dark-theme || light-theme">
@@ -104,11 +113,12 @@
                 </form>
 
                 <button type="button" id="cmdRegister" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#FormRegisterModal" style="display:inline-block">Register</button>
-                <input type="checkbox" id="toggle">
+                
+                <input aria-label="dark mode toggle" role="switch" type="checkbox" id="toggle">
+                
                 <button type="button" id="cmdLogin" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#FormLoginModal" style="display:inline-block">
                     Login
                 </button>
-
             </div>
         </nav>
     </header>
@@ -249,7 +259,7 @@
                         <span class="input-group-text" id="txtPassword">*</span>
                         <input type="password" id="idPassword" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="txtPassword">
                     </div>
-                    <a href="">forgot password</a>
+                    <a href="">Forgot Password?</a>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -275,7 +285,7 @@
                         <span class="input-group-text" id="txtPassword">*</span>
                         <input type="password" id="idPassword" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="txtPassword">
                     </div>
-                    <a href="">forgot password</a>
+                    <a href="">Forgot Password?</a>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

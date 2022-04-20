@@ -1,4 +1,4 @@
-;(() => {
+
     var chat = {
         messageToSend: '',
         messageResponses: [
@@ -93,5 +93,9 @@
         },
     }
 
+    newFunction()
+
+  function newFunction() {
     searchFilter.init()
+  }
 })()

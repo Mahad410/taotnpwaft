@@ -314,6 +314,16 @@ input[type="submit"] {
     flex: 1;
 }
 
+.modal {
+    border-radius: 15%;
+}
+.modal-header {
+    background-color: #555;
+}
+
+.input-group-text {
+    background-color: #818181;
+}
 
 /* Social Media Icons */
 
