@@ -350,3 +350,48 @@ input[type="submit"] {
 .ft-social-list li a :hover {
     color: #fff;
 }
+
+.text-white{
+    color: #fff;
+}
+
+.bg-transparent{
+    background-color: transparent !important;
+}
+
+.TAOT-authmsg {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.TAOT-authmsg .success {
+    color: green;
+}
+
+.TAOT-authmsg .error {
+    color: red;
+}
+
+.modal #agreeBox{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#cmdRegister{
+    float: right;
+}
+
+.footer-alt{
+    padding: 0.75rem;
+    border-top: 1px solid #dee2e6;
+    border-bottom-right-radius: calc(0.3rem - 1px);
+    border-bottom-left-radius: calc(0.3rem - 1px);
+    color:#5a5a5a;
+    /* display: flex;
+    flex-direction: column; */
+    text-align: center;
+}
+
+.footer-alt a{
+    text-decoration: none;
+}

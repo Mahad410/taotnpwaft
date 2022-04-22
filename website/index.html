@@ -112,11 +112,11 @@
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
 
-                <button type="button" id="cmdRegister" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#FormRegisterModal" style="display:inline-block">Register</button>
+                <button type="button" id="cmdRegisterModal" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#FormRegisterModal" style="display:inline-block">Register</button>
                 
                 <input aria-label="dark mode toggle" role="switch" type="checkbox" id="toggle">
                 
-                <button type="button" id="cmdLogin" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#FormLoginModal" style="display:inline-block">
+                <button type="button" id="cmdLoginModal" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#FormLoginModal" style="display:inline-block">
                     Login
                 </button>
             </div>
@@ -243,27 +243,45 @@
         </section>
     </footer>
     <!--Modal Register Form-->
-    <div class="modal" id="FormRegister" tabindex="-1">
+    <div class="modal" id="FormRegisterModal" tabindex="-1">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">Register</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
+                <div class="TAOT-authmsg" id="regMsg"></div>
+                <div class="TAOT-authmsg" id="uMsg"></div>
+                <div class="TAOT-authmsg" id="eMsg"></div>
                 <div class="modal-body">
                     <div class="input-group mb-3">
-                        <span class="input-group-text" id="txtUserName">@</span>
-                        <input type="text" id="idUserName" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="txtUserName">
+                        <span class="input-group-text" id="txtUserName"><i class="fa fa-user text-white"></i></span>
+                        <input type="text" id="regUserName" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="txtUserName">
                     </div>
                     <div class="input-group mb-3">
-                        <span class="input-group-text" id="txtPassword">*</span>
-                        <input type="password" id="idPassword" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="txtPassword">
+                        <span class="input-group-text" id="txtEmail"><i class="fa fa-envelope text-white"></i></span>
+                        <input type="text" id="regEmail" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="txtEmail">
                     </div>
-                    <a href="">Forgot Password?</a>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="txtPassword"><i class="fa fa-lock text-white"></i></span>
+                        <input type="password" id="regPassword" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="txtPassword">
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="txtPassword"><i class="fa fa-lock text-white"></i></span>
+                        <input type="password" id="regConfirmPassword" class="form-control" placeholder="Confirm Password" aria-label="Password" aria-describedby="txtPassword">
+                        <span class="input-group-text bg-transparent" id="txtPassword"><i class="fa fa-eye toggle-password"></i></span>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input class="form-check-input" type="checkbox" value="" id="agreeBox">
+                        <label for="agreeBox"> <a  class="text-decoration-none" href="#">Accept the terms & policies</a></label>
+                    </div>
+                    <button type="button" id="cmdRegister" class="btn btn-primary" disabled>Register</button>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" id="cmdSubmit" onclick="Javascript: Register(); " class="btn btn-primary">Login</button>
+                <div class="footer-alt">
+                    
+                    <span>Already have an account?</span>
+                    <a href="#" onclick="showLogin()"> Login</a>
+               
                 </div>
             </div>
         </div>
@@ -276,20 +294,21 @@
                     <h5 class="modal-title">Login</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
+                <div class="TAOT-authmsg" id="logMsg"></div>
                 <div class="modal-body">
                     <div class="input-group mb-3">
-                        <span class="input-group-text" id="txtUserName">@</span>
-                        <input type="text" id="idUserName" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="txtUserName">
+                        <span class="input-group-text" id="txtUserName"><i class="fa fa-user text-white"></i></span>
+                        <input type="text" id="logUserName" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="txtUserName">
                     </div>
                     <div class="input-group mb-3">
-                        <span class="input-group-text" id="txtPassword">*</span>
-                        <input type="password" id="idPassword" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="txtPassword">
+                        <span class="input-group-text" id="txtPassword"><i class="fa fa-lock text-white"></i></span>
+                        <input type="password" id="logPassword" minlength="8" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="txtPassword">
                     </div>
                     <a href="">Forgot Password?</a>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" id="cmdSubmit" onclick="Javascript: Login(); " class="btn btn-primary">Login</button>
+                    <button type="button" id="cmdLogin" class="btn btn-primary">Login</button>
                 </div>
             </div>
         </div>
@@ -395,6 +414,7 @@
     <script src="Libs/Toastr/build/toastr.min.js"></script>
     <script src="Scripts/TAOTGeneral.js"></script>
     <script src="Scripts/TAOTGrid.js"></script>
+    <script src="Scripts/TAOTAuth.js"></script>
 
 </body>
 
