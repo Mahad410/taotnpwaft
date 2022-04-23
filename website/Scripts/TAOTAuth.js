@@ -19,7 +19,7 @@ $('#cmdRegister').on('click', function () {
                     url: 'register.php',
                     data: { username: username, password: password, email: email },
                     success: function (res) {
-                        let response = jQuery.parseJSON(res);
+                        let response = JSON.parse(res);
                         $('#regMsg').html(response.msg);
                         $('#cmdRegister').html('Register')
                         if (response.code === 200) {
@@ -56,7 +56,7 @@ $('#cmdLogin').on('click', function () {
                 url: 'login.php',
                 data: { username: username, password: password },
                 success: function (res) {
-                    let response = jQuery.parseJSON(res);
+                    let response = JSON.parse(res);
                     $('#logMsg').html(response.msg);
                     $('#cmdLogin').html('Login');
                     if (response.code === 200) {
@@ -102,7 +102,7 @@ $('#regUserName').on('blur', function () {
             url: 'DatabaseHelper.php',
             data: { checkUserName: true, username: $(this).val() },
             success: function (res) {
-                let response = jQuery.parseJSON(res);
+                let response = JSON.parse(res);
                 if (response.code === 200) {
                     allowedUserName = true;
                     $('#uMsg').html('')
@@ -131,7 +131,7 @@ $('#regEmail').on('blur', function () {
             url: 'DatabaseHelper.php',
             data: { checkEmail: true, email: $(this).val() },
             success: function (res) {
-                let response = jQuery.parseJSON(res);
+                let response = JSON.parse(res);
                 if (response.code === 200) {
                     allowedEmail = true;
                     $('#eMsg').html('')
