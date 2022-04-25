@@ -89,13 +89,13 @@
 
 <body class="dark-theme || light-theme">
     <header>
-        <nav class="navbar navbar-expand-sm navbar-fixed-top bg-dark navbar-dark box-shadow" id="" role="navigation">
+        <nav class="navbar navbar-expand navbar-fixed-top bg-dark navbar-dark box-shadow" id="" role="navigation">
             <div class="container-fluid">
-                <span class="ham" style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span>
+                <span class="ham" style="font-size:30px;cursor:pointer; position: absolute;left:1%;" onclick="openNav()">&#9776;</span>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <ul class="nav navbar-nav navbar-right collapse-toggle justify-content-end">
+                <!-- <ul class="nav navbar-nav navbar-right collapse-toggle justify-content-end">
                     <li class="nav-item">
                         <a class="nav-link active" href="#">About</a>
                     </li>
@@ -105,6 +105,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
+<<<<<<< HEAD
                 </ul>
 
                 <form class="d-flex">
@@ -117,8 +118,35 @@
                 <input aria-label="dark mode toggle" role="switch" type="checkbox" id="toggle">
                 
                 <button type="button" id="cmdLoginModal" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#FormLoginModal" style="display:inline-block">
+=======
+                </ul> -->
+                <div class="reg_button">
+                <button type="button" id="cmdRegister" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#FormRegisterModal" style="display:inline-block">Register</button>
+                <button type="button" id="cmdLogin" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#FormLoginModal" style="display:inline-block">
+>>>>>>> b0763f3d24d81d2332ef17c1b1123036fc388ce2
                     Login
+                </button> 
+            </div>
+            <div class="icons_user">
+             
+                <button class="icons_button" id="noti">
+                    <div class="notification">
+                </div>
                 </button>
+<button class="icons_button" id="messages">
+    <div class="mail">
+</div>
+</button>
+   <button class="icons_button" id="user_acc">
+                <div class="user">
+                </div>
+                </button>
+            </div>
+                <!-- <form class="d-flex">
+                    <input class="me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+               
             </div>
         </nav>
     </header>
@@ -143,6 +171,7 @@
                 Settings</span></a>
         <a href="admin.html" class="nav-link"><i class="fas fa-user-shield" aria-hidden="true"></i><span>
                 Admin</span></a>
+                <input aria-label="dark mode toggle" role="switch" type="checkbox" id="toggle" class="toggle_bottom">
     </div>
 
 
@@ -343,6 +372,7 @@
         gtag('js', new Date());
         gtag('config', 'UA-');
     </script>
+    <!-- toggler for dark mode-->
     <script type="text/javascript">
         document.getElementById("toggle").addEventListener("click", function() {
             document.getElementsByTagName('body')[0].classList.toggle("dark-theme");
