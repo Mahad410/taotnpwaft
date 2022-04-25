@@ -19,6 +19,7 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    user-select: none ;
 }
 
 
@@ -82,7 +83,7 @@ body {
     top: 0;
     left: 0;
     background-color: #1c2234;
-    overflow-x: hidden;
+    overflow: hidden;
     transition: 0.5s;
     padding-top: 60px;
 }
@@ -152,9 +153,51 @@ aside .card {
 
 span .ham {
     color: #fff !important;
-    border: 1px solid red;
+    position: absolute;
+    left: 0!important;
 }
-
+.reg_button{
+    margin: 0px 20px;
+}
+.toggle_bottom{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+}
+.user{
+    background-image: url(/Images/user.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height:40px
+}
+.notification{
+    background-image: url(/Images/notification.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+   
+}
+.mail{
+    background-image: url(/Images/send.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+     margin: 0px 15px;
+}
+.icons_button{
+    background-color: transparent;
+    border: none;
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+}
 @media screen and (max-height: 450px) {
     .TAOTSideNav {
         padding-top: 15px;
