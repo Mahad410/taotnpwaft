@@ -1,5 +1,6 @@
 const { response } = require('express')
 const { post, data } = require('jquery')
+const { doc } = require('prettier')
 
 const blogTitleField = document.querySelector('.title')
 const articleField = document.querySelector('.article')
@@ -31,18 +32,18 @@ const uploadImage = (uploadFile, uploadType) => {
       method: 'post',
       body: formdata,
     })
-      response.json().then(data) () => {
-        if (uploadType == 'image') {
-          addImage(data, file.name)
-        } else {
-          bannerPath = `${location.origin}/${data}`
-          banner.style.backgroundImage = `url(${bannerPath})`
-        }
-      });
+    response.json(300).then(data)() => {
+  if (uploadType == 'image') {
+    addImage(data, file.name)
   } else {
-    alert('Upload image only')
+    bannerPath = `${location.origin}/${data}`
+    banner.style.backgroundImage = `url(${bannerPath})`
   }
+});
+} else {
+  alert('Upload image only')
 }
+
 
 const addImage = (imagepath, alt) => {
   let curPos = articleField.selectionStart
@@ -78,9 +79,62 @@ publishBtn.addEventListener('click', () => {
       })
       .then(() => {
         location.href = `/${docName}`
-      }
-        })
-  .catch(err => {
-    console.log(err)
+      })
+    }
+  })
+}
+
+// already existing blog setup
+let blogId = location.pathname.split("/");
+blogId.shift();
+
+if(blogId)[0] != 'editor'){
+  let docRef = db.collection("blogs").doc(decodeURI(blogId[0]));
+  docRef.get().then((doc) => {
+    console.log(doc);
+    if(doc.exists){
+      let data = doc.data();
+      bannerPath = data.bannerImage;
+      banner.style.backgroundImage = `url(${bannerPath})`;
+      blogTitleField.value = date.title;
+      articleField.value = date.article;
+    } else{
+      location.replace("/");
+    }
+  })
+}
+
+if(articleField.value.length && blogTitleField.value.length){
+  // generating id
+
+  let docName;
+  if(blogId[0] == 'editor'){
+    let letters = `abcdefghijklmnopqrstuvwxyz`;
+    let blogTitle = blogTitleField.value.split(" ").join(" ");
+    let id = '';
+    for(let i = 0; i < 4; i++){
+        id +- letters[Math.floor(Math.random() * letters.length)];
+    }
+    docName = `${blogTitle}-${id}`;
+  } else{
+    docname = decodeURI(blogId[0]);
   }
+}
+
+// set up docName
+let date = new Date(); // for published at info
+
+// access db variable
+db.collection("blogs").doc(docName).set({
+  title: blogTitleField.value,
+  article: articleField.value,
+  bannerImage: bannerPath,
+  publishedAt: `${date.getDate()} ${months[date.getMonth()]} ${date.getFullYear()}`,
+  author: auth.currentUser.email.split('@')
+})
+.then(() => {
+  location.href = 
+})
+.catch((err) => {
+  console.error(err);
 }

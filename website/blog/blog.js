@@ -62,3 +62,14 @@ const addArticle = (ele, data) => {
         }
     })
 }
+
+try{
+  if(Date.autho == auth.currentUser.email.split('@')[]){
+    let editBtn = document.getElementById('edit-blog-btn');
+    editBtn.style.display = 'inline;
+    editBtn.href = `${blogId}/editor`;
+  }
+} catch{
+  // nothing
+}
+

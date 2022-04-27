@@ -9,7 +9,5 @@ This is probably better shared in an app like Slack,Trello,Asana, etc. or offere
 4. Add Twitter and OpenGraph SEO meta to website
 5. Add Blog functionality
 6. Finish Admin Panel
-7. Finish Register Modal/page
-8. Move `<script>` tags to bottom from head tag
-9. Add toasts to notifications
-10. Add Bell notifications, user avatar icon and mail icon with notifications.
+7. Add toasts to notifications
+8. Add Bell notifications, user avatar icon and mail icon with notifications.

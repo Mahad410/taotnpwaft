@@ -10,14 +10,18 @@
 
       $keywords = $_POST['keywords'];
       //create the query
-      $mysqldb->query("SELECT name,url FROM webresource WHERE MATCH(description) AGAIST('$keywords')");
+      $sql->query("SELECT name,url FROM webresource WHERE MATCH(description) AGAIST('$keywords')");
 
       // Output from retrieved rows or display appropriate message
-      if ($mysqldb->numrows() > ()) {
-          while ($row = $mysqldb->fetchobject()
-          echo "<a href=\"$row->url\">$row->name</a><br />";
-      } else {
-          echo "No results found.";
-      }
+      
+      if ($result=mysqli_query($con,$sql));
+      {
+        $rowcount=mysqli_num_rows($result);
+        while ($obj = $result -> fetch_object())
+        echo "<a href=\"$row->url\">$row->name</a><br />";
+    };
   }
+
+  $mysqli -> close();
+
 ?>

@@ -22,8 +22,6 @@ It's very global, so you might need to take some extra steps to get it to work f
 - [ ]  After exploring feature from your own expectations, review the "QA checklist" created by the feature’s developer in the feature card. Work on whatever hasn’t been covered.
 - [ ]  If feature behavior is wrong, don't review code yet. Allocate PR back to developer and describe, in detail, correct feature behavior. Describe meticulously, providing screenshots and flows if applicable. Miscommunication led to misunderstanding, therefore you need to invest time in describing it better now. After explaining the issue again, mention the original issue's author for her/him to know what was done wrong.
 - [ ]  Read thoroughly the feature description to check if everything is implemented.
-- [ ]
-- [ ]
 
 ## JetBrains IntelliJ/PHPStorm/IDEA
 

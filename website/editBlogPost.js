@@ -48,8 +48,8 @@ const app.post('/upload', (req, res) => {
       // our image upload path
       res.json(`uploads/${imagename}`)
     }
-  })
-})
+  });
+});
 
 const addImage = (imagepath, alt) => {
   let curPos = articleField.selectionStart
@@ -87,6 +87,8 @@ publishBtn.addEventListener('click', () => {
       })
       .catch(err => {
         console.error(err)
-      } 
-   }
-}}
+      })
+    /* ?? 
+    */
+  }
+})
