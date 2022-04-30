@@ -1,3 +1,31 @@
+let auth = new auth.state(authProvider);
+let blog = new blog.article;
+let login = document.querySelector('.login');
+
+auth.onAuthStateChanged(user) => {
+  if (user){
+    login.getElementsByClassName.display = "non";
+    getUserWrittenBlogs();
+  } else{
+    setupLoginButton();
+  }
+})
+
+const setupLoginButton = () => {
+  ui.start("#login"), {
+    callbacks: {
+      signInSuccessWithAuthResult: function(authREsult, rediretURL) {
+        location.reload();
+        return false;
+      }
+    },
+    sinInFlow: "popup",
+    signInOptions: [auth.authProvider.ID]
+
+
+  }
+}
+
 //fetch user
 
 const getUserWrittenBlogs = () = {
@@ -11,7 +39,7 @@ const getUserWrittenBlogs = () = {
         console.log("Error getting documents: ", error);
       }
 });
-}
+
 
 const createBlog = (blog) => {
   let data = blog.data();
@@ -31,8 +59,5 @@ const deleteBlog = (id) = {
     location.reload(),
   }).catch((error) => {
     console.error("Error removing document: ", error);
-
-  }),
-}
-}
+  });
 }

@@ -1,13 +1,23 @@
-const express = require('express')
-const app = express()
-const port = 3000
+const { application } = require('express')
+const path = require('path');
+const express = require('express');;
+const app = express();
+const port = 3000;
+
+app.use)express.static(initial_path));
+
+let initial_path = path.join(__dirname, "public")
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+  res.sendFile(path.join(initial_path, "index.html"));
 })
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
+})
+
+app.get("/admin"), (req, res) => {
+  res.sendfile(path.join(initial_path, "blogdashboard.html"));
 })
 
 app.get('blog/editor', (req, res) => {

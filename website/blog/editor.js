@@ -39,11 +39,11 @@ const uploadImage = (uploadFile, uploadType) => {
     bannerPath = `${location.origin}/${data}`
     banner.style.backgroundImage = `url(${bannerPath})`
   }
-});
-} else {
+    })
+} else{
   alert('Upload image only')
 }
-
+}
 
 const addImage = (imagepath, alt) => {
   let curPos = articleField.selectionStart
@@ -69,9 +69,7 @@ publishBtn.addEventListener('click', () => {
 
     // db access collection
 
-    db.collection('blogs')
-      .doc('docName')
-      .set({
+    db.collection('blogs').doc('docName').set({
         title: blogTitleField.value,
         article: articleField.value,
         bannerImage: bannerPath,
@@ -79,6 +77,9 @@ publishBtn.addEventListener('click', () => {
       })
       .then(() => {
         location.href = `/${docName}`
+      })
+      .catch((err) => {
+        console.error(err);
       })
     }
   })

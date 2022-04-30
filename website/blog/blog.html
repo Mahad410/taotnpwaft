@@ -103,6 +103,7 @@
 
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Open</span>
     <!-- #page-content-wrapper -->
+
     <main role="main">
         <div class="main">
             <div class="container-fluid mt-5 mb-5">
@@ -111,8 +112,72 @@
                 </div>
             </div>
         </div>
+        <section class="blog-section">
+            <div class="blog-card">
+                <img src="blog-header.phg" class="blog-header-image" alt="">
+                <h1 class="blog-title">Lorem</h1>
+                <p class="">Lorem ipsum paragrapho</p> 
+                <a href="/" class="btn dark">Read</a>
+                <a href="/" class="btn grey">Edit</a>
+                <a href="/" class="btn danger">Delete</a>
+
+                <div class="blog">
+                    <h1 class="blog-title"></h1>
+                    <p class="published"><span> Published at - </span></p>
+                    <div class="article">
+                        <article>
+
+                        </article>
+                    </div>
+                    <h1 class="subheading">Read more</h1>
+                </div>
+
+            </div>
+        </section>
+        <section id="search" class="py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 ml-auto">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search Posts...">
+                            <div class="input-group-append">
+                                <button class="btn background-primary" id="searchPostBtn">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="posts">
+            <div class="container">
+                <div class="row">
+                    <div class="col" id="post-parent">
+                        <div class="card" id="post-container">
+                            <div class="card-header text-center">
+                                <h4>All Posts</h4>
+                            </div>
+                            <table class="table table-striped" id="post-table">
+                                <thead class="background-dark">
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Title</th>
+                                        <th>Category</th>
+                                        <th>Date</th>
+                                        <th>Details</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="post-table">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    
     <!-- /#page-content-wrapper -->
+
     <!-- Footer -->
     <footer>
         <!-- Footer main -->
