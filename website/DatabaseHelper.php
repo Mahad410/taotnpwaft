@@ -1,4 +1,4 @@
-<?php
+<?php error_reporting(0); session_start();
 /*------------------------------------------------------------
  * Name:          GetMySqliConnection
  * Purpose:       Gets an instance of a MySqlI Connection Object
@@ -52,6 +52,7 @@ function ValidateLogin($username, $password): bool
       $login_date = date("Y-m-d H:i:s");
       $stmt->bind_param("ss", $login_date, $username);
       $stmt->execute();
+      setSession('Auth', true);
       return true;
     } else {
       return false;
@@ -240,4 +241,29 @@ if (isset($_POST['checkEmail'])) {
     $responseArr['code'] = 200;
   }
   echo json_encode($responseArr, JSON_PRETTY_PRINT);
+}
+
+
+/*------------------------------------------------------------
+ * Name:          setSession
+ * Purpose:       Set value to $_SESSION variable
+ * Args:          key, value
+ * Returns:       
+ * Date Created:  8 May 2022
+ * Author:        Hritik R
+ * ------------------------------------------------------------*/
+function setSession($key, $value){
+  $_SESSION[$key] = $value;
+}
+
+/*------------------------------------------------------------
+ * Name:          isAuthenticated
+ * Purpose:       Returns true if current session is authenticated
+ * Args:          
+ * Returns:       BOOL
+ * Date Created:  8 May 2022
+ * Author:        Hritik R
+ * ------------------------------------------------------------*/
+function isAuthenticated(){
+  return $_SESSION['Auth'];
 }
