@@ -410,9 +410,22 @@ input[type="submit"] {
     color: #ff4500;
 }
 
-.ft-social-list li a :hover {
-    color: #fff;
+.TAOT-twitch {
+    color: #6441A4;
 }
+
+.ft-social-list li a i:hover {
+    background-color: white;
+}
+
+.ft-social-list li a i{
+    background-color: white;
+    border-radius: 50px;
+    border: 3px solid white;
+    padding: 1px
+}
+
+
 
 .text-white {
     color: #fff;

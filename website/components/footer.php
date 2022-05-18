@@ -53,6 +53,8 @@
                             class="fab fa-discord"></i></a></li>
                 <li><a class="TAOT-reddit" href="https://www.reddit.com/r/TheArtofTech/" target="_blank"><i
                             class="fab fa-reddit"></i></a></li>
+                <li><a class="TAOT-twitch" href="https://twitch.tv/taotnpwaft/" target="_blank"><i
+                            class="fab fa-twitch"></i></a></li>
             </ul>
         </section>
 
