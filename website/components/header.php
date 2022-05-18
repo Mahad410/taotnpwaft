@@ -16,30 +16,38 @@
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul> -->
-            <?php if(!isAuthenticated()){?>
-            <div class="reg_button">
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#FormLoginModal" style="display:inline-block">
-                    Login
-                </button>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#FormRegisterModal" style="display:inline-block">Register</button>
-            </div>
+            <?php if (!isAuthenticated()) { ?>
+                <div class="reg_button">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#FormLoginModal" style="display:inline-block">
+                        Login
+                    </button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#FormRegisterModal" style="display:inline-block">Register</button>
+                </div>
             <?php } else { ?>
-            <div class="icons_user">
-
-                <button class="icons_button" id="noti">
-                    <div class="notification">
+                <div class="header_icons">
+                    <div class="notificationdrop">
+                        <button class="icons_button notification">
+                        </button>
                     </div>
-                </button>
-                <button class="icons_button" id="messages">
-                    <div class="mail">
+                    <div class="messagedrop">
+                        <button class="icons_button mail" id="messages">
+                        </button>
                     </div>
-                </button>
-                <button class="icons_button" id="user_acc">
-                    <div class="user">
+                    <div class="profiledrop">
+                        <button class="icons_button user">
+                        </button>
+                        <div class="profiledrop-content">
+                            <div class="profiledetails">
+                                <span><?=$_SESSION['User']['Username'];?></span>
+                                <br>
+                                <span class="profile-email"><?=$_SESSION['User']['EmailAddress'];?></span>
+                            </div>
+                            <a href="#"><i class="fa fa-gear"></i>Settings</a>
+                            <a href="#" onclick="logOut()"><i class="fa fa-power-off"></i>Logout</a>
+                        </div>
                     </div>
-                </button>
-            </div>
-            <?php }?>
+                </div>
+            <?php } ?>
             <!-- <form class="d-flex">
                     <input class="me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>

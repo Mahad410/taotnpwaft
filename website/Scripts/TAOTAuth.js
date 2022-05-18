@@ -228,3 +228,25 @@ function resetForm() {
 function showLogin() {
     $('#FormRegisterModal, #FormLoginModal').modal('toggle')
 }
+
+/**
+ * Logout
+ * Author : Hritik R
+ */
+ function logOut() {
+    try {
+        $.ajax({
+            type: 'POST',
+            url: 'DatabaseHelper.php',
+            data: {logOut: true},
+            success: function (res) {
+                let response = JSON.parse(res)
+                alert(response.msg)
+                location.reload();
+            },
+        })
+    } catch (e) {
+        alert(e)
+    }
+}
+
