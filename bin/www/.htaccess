@@ -1,8 +1,0 @@
-Header always edit Set-Cookie (.*) "$1; HTTPOnly; Secure"
-
-<Directory /var/www/html>
-                Options Indexes FollowSymLinks MultiViews
-                AllowOverride All
-                Order allow,deny
-                allow from all
-</Directory>
