@@ -96,6 +96,4 @@
     newFunction()
 
   function newFunction() {
-    searchFilter.init()
-  }
-})()
+    searchFilter.init()}
