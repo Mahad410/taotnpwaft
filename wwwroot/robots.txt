@@ -1,7 +1,0 @@
-User-agent: Googlebot
-Disallow:
-
-User-agent: *
-Allow: /
-Noarchive: 
-Sitemap: http://www.taotnpwaft.org/sitemap.xml

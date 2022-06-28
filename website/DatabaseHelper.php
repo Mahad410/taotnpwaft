@@ -1,4 +1,5 @@
-<?php
+<?php error_reporting(0);
+session_start();
 /*------------------------------------------------------------
  * Name:          GetMySqliConnection
  * Purpose:       Gets an instance of a MySqlI Connection Object
@@ -48,10 +49,27 @@ function ValidateLogin($username, $password): bool
   if ($result->num_rows > 0) {
     $userData = $result->fetch_assoc();
     if (password_verify($password, $userData['Password'])) {
-      $stmt = $conn -> prepare('UPDATE logins SET LastLogin = ? WHERE UserName = ? LIMIT 1');
+      $stmt = $conn->prepare('UPDATE logins SET LastLogin = ? WHERE UserName = ? LIMIT 1');
       $login_date = date("Y-m-d H:i:s");
       $stmt->bind_param("ss", $login_date, $username);
       $stmt->execute();
+
+      // Get Current User Info
+      $stmt = $conn->prepare("SELECT * FROM logins WHERE UserName = ?");
+      $stmt->bind_param("s", $username);
+      $stmt->execute();
+      $result = $stmt->get_result();
+      if ($result->num_rows > 0) {
+        $data = $result->fetch_assoc();
+        $userInfo = array(
+            "Username" => $data['UserName'],
+            "EmailAddress" => $data['Email'],
+            "LastLogin" => $data['LastLogin'],
+            "CreatedOn" => $data['CreatedOn'],
+        );
+        setSession('User', $userInfo);
+      }
+      setSession('Auth', true);
       return true;
     } else {
       return false;
@@ -239,5 +257,50 @@ if (isset($_POST['checkEmail'])) {
   } else {
     $responseArr['code'] = 200;
   }
+  echo json_encode($responseArr, JSON_PRETTY_PRINT);
+}
+
+
+/*------------------------------------------------------------
+ * Name:          setSession
+ * Purpose:       Set value to $_SESSION variable
+ * Args:          key, value
+ * Returns:       
+ * Date Created:  8 May 2022
+ * Author:        Hritik R
+ * ------------------------------------------------------------*/
+function setSession($key, $value)
+{
+  $_SESSION[$key] = $value;
+}
+
+/*------------------------------------------------------------
+ * Name:          isAuthenticated
+ * Purpose:       Returns true if current session is authenticated
+ * Args:          
+ * Returns:       BOOL
+ * Date Created:  8 May 2022
+ * Author:        Hritik R
+ * ------------------------------------------------------------*/
+function isAuthenticated()
+{
+  return $_SESSION['Auth'];
+}
+
+
+/*------------------------------------------------------------
+ * Name:          REQUEST_METHOD to Logout
+ * Purpose:       Destroy Session & Logout user 
+ * Args:          
+ * Returns:       Return JSON Message
+ * Date Created:  18 May 2022
+ * Author:        Hritik R
+ * ------------------------------------------------------------*/
+if (isset($_POST['logOut'])) {
+  session_destroy();
+  $responseArr = array(
+    "code" => 200,
+    "msg" => 'Logout successfully'
+  );
   echo json_encode($responseArr, JSON_PRETTY_PRINT);
 }

@@ -526,7 +526,6 @@
                                                         </div>
                                                     </div>
                                                 </div>
-
                                             </div>
                                             <div class="slimScrollBar"
                                                 style="width: 7px; position: absolute; top: 0px; opacity: 0.4; display: block; border-radius: 7px; z-index: 99; right: 1px; background: rgb(0, 0, 0);">
@@ -548,16 +547,27 @@
                                                     message</button>
                                             </div>
                                         </form>
+
+                                        <script>
+                                            if (navigator.onLine)
+                                                console.log('online');
+                                        } else {
+                                                console.log('offline');
+                                        };
+                                            window.addEventListener('offline', function (e) {console.log('offline');
+                                        });
+                                            window.addEventListener('online', function (e) {console.log('online');
+                                        });
+                                        document.getElementById('statusCheck').addEventListener('click', () => ('console.log(window.navigator.onLine is ' + window.navigator.onLine));
+                                        </script>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
 </body>
-
 </html>
